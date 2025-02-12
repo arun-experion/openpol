@@ -1,0 +1,18 @@
+<?php
+    define("USER_PASS_NOT_MATCH", "Username and password do not match.");
+	define("USER_NOT_ACTIVE", "User not active");
+	define("EMPTY_QUARTER_NAME", "Quartername required");
+	define("EMPTY_START_DATE", "Start date required");
+	define("EMPTY_END_DATE", "End date required");
+<<<<<<< .mine
+	define("EMPTY_PRODUCT_NAME", "Product name required");
+	define("EMPTY_PRODUCT_CODE", "Product code required");
+	define("EMPTY_WEIGHT", "Weight required");
+	define("EMPTY_CARTON", "Carton required");
+=======
+	define("EMPTY_ED_EQP_TAX", "Equipment ED required");
+	define("EMPTY_CST_EQP_TAX", "Equipment CST date required");
+	define("EMPTY_ED_B_TAX", "Blood Bag  ED required");
+	define("EMPTY_CST_B_TAX", "Blood Bag CST required");
+>>>>>>> .r94
+?>

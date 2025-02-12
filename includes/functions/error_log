@@ -1,0 +1,986 @@
+[24-Aug-2020 10:52:56 Etc/GMT] PHP Warning:  require_once(DIR_CLASSESclass.phpmailer.php): failed to open stream: No such file or directory in /home/terumpkm/public_html/oms/includes/functions/sendMail-test.php on line 3
+[24-Aug-2020 10:52:56 Etc/GMT] PHP Fatal error:  require_once(): Failed opening required 'DIR_CLASSESclass.phpmailer.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/terumpkm/public_html/oms/includes/functions/sendMail-test.php on line 3
+[24-Aug-2020 10:53:30 Etc/GMT] PHP Warning:  require_once(class.phpmailer.php): failed to open stream: No such file or directory in /home/terumpkm/public_html/oms/includes/functions/sendMail-test.php on line 3
+[24-Aug-2020 10:53:30 Etc/GMT] PHP Fatal error:  require_once(): Failed opening required 'class.phpmailer.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/terumpkm/public_html/oms/includes/functions/sendMail-test.php on line 3
+[24-Aug-2020 10:54:14 Etc/GMT] PHP Warning:  require_once(public_html/oms/includes/classes/class.phpmailer.php): failed to open stream: No such file or directory in /home/terumpkm/public_html/oms/includes/functions/sendMail-test.php on line 3
+[24-Aug-2020 10:54:14 Etc/GMT] PHP Fatal error:  require_once(): Failed opening required 'public_html/oms/includes/classes/class.phpmailer.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/terumpkm/public_html/oms/includes/functions/sendMail-test.php on line 3
+[24-Aug-2020 10:57:13 Etc/GMT] PHP Warning:  fsockopen() expects parameter 2 to be long, string given in /home/terumpkm/public_html/oms/includes/classes/class.smtp.php on line 122
+[24-Aug-2020 11:20:44 Etc/GMT] PHP Warning:  fsockopen() expects parameter 2 to be long, string given in /home/terumpkm/public_html/oms/includes/classes/class.smtp.php on line 122
+[24-Aug-2020 11:37:53 Etc/GMT] PHP Warning:  fsockopen() expects parameter 2 to be long, string given in /home/terumpkm/public_html/oms/includes/classes/class.smtp.php on line 122
+[24-Aug-2020 11:38:57 Etc/GMT] PHP Warning:  fsockopen() expects parameter 2 to be long, string given in /home/terumpkm/public_html/oms/includes/classes/class.smtp.php on line 122
+[24-Aug-2020 11:46:57 Etc/GMT] PHP Warning:  fsockopen() expects parameter 2 to be long, string given in /home/terumpkm/public_html/oms/includes/classes/class.smtp.php on line 122
+[24-Aug-2020 11:49:43 Etc/GMT] PHP Warning:  fsockopen() expects parameter 2 to be long, string given in /home/terumpkm/public_html/oms/includes/classes/class.smtp.php on line 122
+[24-Aug-2020 11:50:17 Etc/GMT] PHP Warning:  fsockopen() expects parameter 2 to be long, string given in /home/terumpkm/public_html/oms/includes/classes/class.smtp.php on line 122
+[24-Aug-2020 11:59:26 Etc/GMT] PHP Warning:  fsockopen() expects parameter 2 to be long, string given in /home/terumpkm/public_html/oms/includes/classes/class.smtp.php on line 122
+[24-Aug-2020 12:01:03 Etc/GMT] PHP Warning:  fsockopen() expects parameter 2 to be long, string given in /home/terumpkm/public_html/oms/includes/classes/class.smtp.php on line 122
+[24-Aug-2020 12:01:06 Etc/GMT] PHP Warning:  fsockopen() expects parameter 2 to be long, string given in /home/terumpkm/public_html/oms/includes/classes/class.smtp.php on line 122
+[24-Aug-2020 12:04:25 Etc/GMT] PHP Warning:  fsockopen() expects parameter 2 to be long, string given in /home/terumpkm/public_html/oms/includes/classes/class.smtp.php on line 122
+[24-Aug-2020 12:04:49 Etc/GMT] PHP Warning:  fsockopen() expects parameter 2 to be long, string given in /home/terumpkm/public_html/oms/includes/classes/class.smtp.php on line 122
+[24-Aug-2020 12:05:51 Etc/GMT] PHP Warning:  fsockopen() expects parameter 2 to be long, string given in /home/terumpkm/public_html/oms/includes/classes/class.smtp.php on line 122
+[24-Aug-2020 12:06:27 Etc/GMT] PHP Warning:  fsockopen() expects parameter 2 to be long, string given in /home/terumpkm/public_html/oms/includes/classes/class.smtp.php on line 122
+[24-Aug-2020 12:25:10 Etc/GMT] PHP Fatal error:  Call to undefined method PHPMailer::setFrom() in /home/terumpkm/public_html/oms/includes/functions/sendMail-test.php on line 60
+[24-Aug-2020 12:31:23 Etc/GMT] PHP Warning:  fsockopen() expects parameter 2 to be long, string given in /home/terumpkm/public_html/oms/includes/classes/class.smtp.php on line 122
+[24-Aug-2020 12:34:52 Etc/GMT] PHP Warning:  Creating default object from empty value in /home/terumpkm/public_html/oms/includes/functions/sendMail-test.php on line 10
+[24-Aug-2020 12:34:52 Etc/GMT] PHP Warning:  fsockopen() expects parameter 2 to be long, string given in /home/terumpkm/public_html/oms/includes/classes/class.smtp.php on line 122
+[24-Aug-2020 13:08:35 Etc/GMT] PHP Warning:  fsockopen() expects parameter 2 to be long, string given in /home/terumpkm/public_html/oms/includes/classes/class.smtp.php on line 122
+[24-Aug-2020 13:08:52 Etc/GMT] PHP Warning:  fsockopen() expects parameter 2 to be long, string given in /home/terumpkm/public_html/oms/includes/classes/class.smtp.php on line 122
+[24-Aug-2020 13:26:40 Etc/GMT] PHP Warning:  require(smtp/vendor/autoload.php): failed to open stream: No such file or directory in /home/terumpkm/public_html/oms/includes/functions/sendMail-test.php on line 9
+[24-Aug-2020 13:26:40 Etc/GMT] PHP Warning:  require(smtp/vendor/autoload.php): failed to open stream: No such file or directory in /home/terumpkm/public_html/oms/includes/functions/sendMail-test.php on line 9
+[24-Aug-2020 13:26:40 Etc/GMT] PHP Fatal error:  require(): Failed opening required 'smtp/vendor/autoload.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/terumpkm/public_html/oms/includes/functions/sendMail-test.php on line 9
+[24-Aug-2020 13:28:27 Etc/GMT] PHP Fatal error:  Class 'PHPMailer' not found in /home/terumpkm/public_html/oms/includes/functions/mail.php on line 5
+[24-Aug-2020 13:32:21 Etc/GMT] PHP Fatal error:  Class 'PHPMailer' not found in /home/terumpkm/public_html/oms/includes/functions/mail.php on line 5
+[24-Aug-2020 13:39:24 Etc/GMT] PHP Fatal error:  Uncaught exception 'PHPMailer\PHPMailer\Exception' with message 'SMTP Error: Could not authenticate.' in /home/terumpkm/public_html/oms/includes/smtp/src/PHPMailer.php:2035
+Stack trace:
+#0 /home/terumpkm/public_html/oms/includes/smtp/src/PHPMailer.php(1855): PHPMailer\PHPMailer\PHPMailer->smtpConnect(Array)
+#1 /home/terumpkm/public_html/oms/includes/smtp/src/PHPMailer.php(1598): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Mon, 24 A...', 'This is a multi...')
+#2 /home/terumpkm/public_html/oms/includes/smtp/src/PHPMailer.php(1434): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home/terumpkm/public_html/oms/includes/functions/sendMail-test.php(55): PHPMailer\PHPMailer\PHPMailer->send()
+#4 /home/terumpkm/public_html/oms/includes/functions/sendMail-test.php(58): sendmail('sm1590@gmail.co...', 'test- termo pen...', 'test- termo pen...')
+#5 {main}
+  thrown in /home/terumpkm/public_html/oms/includes/smtp/src/PHPMailer.php on line 2035
+[24-Aug-2020 13:40:39 Etc/GMT] PHP Fatal error:  Uncaught exception 'PHPMailer\PHPMailer\Exception' with message 'SMTP Error: Could not authenticate.' in /home/terumpkm/public_html/oms/includes/smtp/src/PHPMailer.php:2035
+Stack trace:
+#0 /home/terumpkm/public_html/oms/includes/smtp/src/PHPMailer.php(1855): PHPMailer\PHPMailer\PHPMailer->smtpConnect(Array)
+#1 /home/terumpkm/public_html/oms/includes/smtp/src/PHPMailer.php(1598): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Mon, 24 A...', 'This is a multi...')
+#2 /home/terumpkm/public_html/oms/includes/smtp/src/PHPMailer.php(1434): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home/terumpkm/public_html/oms/includes/functions/sendMail-test.php(59): PHPMailer\PHPMailer\PHPMailer->send()
+#4 /home/terumpkm/public_html/oms/includes/functions/sendMail-test.php(62): sendmail('sm1590@gmail.co...', 'test- termo pen...', 'test- termo pen...')
+#5 {main}
+  thrown in /home/terumpkm/public_html/oms/includes/smtp/src/PHPMailer.php on line 2035
+[24-Aug-2020 13:52:04 Etc/GMT] PHP Fatal error:  Uncaught exception 'PHPMailer\PHPMailer\Exception' with message 'SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting' in /home/terumpkm/public_html/oms/includes/smtp/src/PHPMailer.php:1856
+Stack trace:
+#0 /home/terumpkm/public_html/oms/includes/smtp/src/PHPMailer.php(1598): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Mon, 24 A...', 'This is a multi...')
+#1 /home/terumpkm/public_html/oms/includes/smtp/src/PHPMailer.php(1434): PHPMailer\PHPMailer\PHPMailer->postSend()
+#2 /home/terumpkm/public_html/oms/includes/functions/sendMail-test.php(59): PHPMailer\PHPMailer\PHPMailer->send()
+#3 /home/terumpkm/public_html/oms/includes/functions/sendMail-test.php(62): sendmail('sm1590@gmail.co...', 'test- termo pen...', 'test- termo pen...')
+#4 {main}
+  thrown in /home/terumpkm/public_html/oms/includes/smtp/src/PHPMailer.php on line 1856
+[24-Aug-2020 13:52:45 Etc/GMT] PHP Fatal error:  Uncaught exception 'PHPMailer\PHPMailer\Exception' with message 'SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting' in /home/terumpkm/public_html/oms/includes/smtp/src/PHPMailer.php:1856
+Stack trace:
+#0 /home/terumpkm/public_html/oms/includes/smtp/src/PHPMailer.php(1598): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Mon, 24 A...', 'This is a multi...')
+#1 /home/terumpkm/public_html/oms/includes/smtp/src/PHPMailer.php(1434): PHPMailer\PHPMailer\PHPMailer->postSend()
+#2 /home/terumpkm/public_html/oms/includes/functions/sendMail-test.php(59): PHPMailer\PHPMailer\PHPMailer->send()
+#3 /home/terumpkm/public_html/oms/includes/functions/sendMail-test.php(62): sendmail('sm1590@gmail.co...', 'test- termo pen...', 'test- termo pen...')
+#4 {main}
+  thrown in /home/terumpkm/public_html/oms/includes/smtp/src/PHPMailer.php on line 1856
+[24-Aug-2020 13:54:40 Etc/GMT] PHP Fatal error:  Uncaught exception 'PHPMailer\PHPMailer\Exception' with message 'SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting' in /home/terumpkm/public_html/oms/includes/smtp/src/PHPMailer.php:1856
+Stack trace:
+#0 /home/terumpkm/public_html/oms/includes/smtp/src/PHPMailer.php(1598): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Mon, 24 A...', 'This is a multi...')
+#1 /home/terumpkm/public_html/oms/includes/smtp/src/PHPMailer.php(1434): PHPMailer\PHPMailer\PHPMailer->postSend()
+#2 /home/terumpkm/public_html/oms/includes/functions/sendMail-test.php(59): PHPMailer\PHPMailer\PHPMailer->send()
+#3 /home/terumpkm/public_html/oms/includes/functions/sendMail-test.php(62): sendmail('sm1590@gmail.co...', 'test- termo pen...', 'test- termo pen...')
+#4 {main}
+  thrown in /home/terumpkm/public_html/oms/includes/smtp/src/PHPMailer.php on line 1856
+[24-Aug-2020 15:17:24 Etc/GMT] PHP Fatal error:  Uncaught exception 'PHPMailer\PHPMailer\Exception' with message 'SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting' in /home/terumpkm/public_html/oms/includes/smtp/src/PHPMailer.php:1856
+Stack trace:
+#0 /home/terumpkm/public_html/oms/includes/smtp/src/PHPMailer.php(1598): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Mon, 24 A...', 'This is a multi...')
+#1 /home/terumpkm/public_html/oms/includes/smtp/src/PHPMailer.php(1434): PHPMailer\PHPMailer\PHPMailer->postSend()
+#2 /home/terumpkm/public_html/oms/includes/functions/sendMail-test.php(59): PHPMailer\PHPMailer\PHPMailer->send()
+#3 /home/terumpkm/public_html/oms/includes/functions/sendMail-test.php(62): sendmail('sm1590@gmail.co...', 'test- termo pen...', 'test- termo pen...')
+#4 {main}
+  thrown in /home/terumpkm/public_html/oms/includes/smtp/src/PHPMailer.php on line 1856
+[24-Aug-2020 15:21:13 Etc/GMT] PHP Fatal error:  Uncaught exception 'PHPMailer\PHPMailer\Exception' with message 'SMTP Error: Could not authenticate.' in /home/terumpkm/public_html/oms/includes/smtp/src/PHPMailer.php:2035
+Stack trace:
+#0 /home/terumpkm/public_html/oms/includes/smtp/src/PHPMailer.php(1855): PHPMailer\PHPMailer\PHPMailer->smtpConnect(Array)
+#1 /home/terumpkm/public_html/oms/includes/smtp/src/PHPMailer.php(1598): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Mon, 24 A...', 'This is a multi...')
+#2 /home/terumpkm/public_html/oms/includes/smtp/src/PHPMailer.php(1434): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home/terumpkm/public_html/oms/includes/functions/sendMail-test.php(59): PHPMailer\PHPMailer\PHPMailer->send()
+#4 /home/terumpkm/public_html/oms/includes/functions/sendMail-test.php(62): sendmail('sm1590@gmail.co...', 'test- termo pen...', 'test- termo pen...')
+#5 {main}
+  thrown in /home/terumpkm/public_html/oms/includes/smtp/src/PHPMailer.php on line 2035
+[24-Aug-2020 15:42:11 Etc/GMT] PHP Warning:  fsockopen() expects parameter 2 to be long, string given in /home/terumpkm/public_html/oms/includes/classes/class.smtp.php on line 122
+[24-Aug-2020 15:45:21 Etc/GMT] PHP Fatal error:  Class 'PHPMailer' not found in /home/terumpkm/public_html/oms/includes/functions/mail.php on line 5
+[24-Aug-2020 15:50:34 Etc/GMT] PHP Fatal error:  Class 'PHPMailer' not found in /home/terumpkm/public_html/oms/includes/functions/mail.php on line 40
+[24-Aug-2020 15:52:58 Etc/GMT] PHP Fatal error:  Class 'PHPMailer' not found in /home/terumpkm/public_html/oms/includes/functions/mail.php on line 40
+[24-Aug-2020 15:53:09 Etc/GMT] PHP Fatal error:  Class 'PHPMailer' not found in /home/terumpkm/public_html/oms/includes/functions/mail.php on line 40
+[24-Aug-2020 15:53:10 Etc/GMT] PHP Fatal error:  Class 'PHPMailer' not found in /home/terumpkm/public_html/oms/includes/functions/mail.php on line 40
+[24-Aug-2020 15:53:36 Etc/GMT] PHP Fatal error:  Class 'PHPMailer' not found in /home/terumpkm/public_html/oms/includes/functions/mail.php on line 40
+[24-Aug-2020 15:58:23 Etc/GMT] PHP Fatal error:  Class 'PHPMailer' not found in /home/terumpkm/public_html/oms/includes/functions/mail.php on line 45
+[24-Aug-2020 16:03:52 Etc/GMT] PHP Fatal error:  Class 'PHPMailer' not found in /home/terumpkm/public_html/oms/includes/functions/mail.php on line 41
+[24-Aug-2020 16:06:20 Etc/GMT] PHP Fatal error:  Class 'PHPMailer' not found in /home/terumpkm/public_html/oms/includes/functions/mail.php on line 41
+[24-Aug-2020 16:07:57 Etc/GMT] PHP Fatal error:  Class 'PHPMailer' not found in /home/terumpkm/public_html/oms/includes/functions/mail.php on line 44
+[26-Oct-2021 14:23:04 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting in /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php:1856
+Stack trace:
+#0 /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php(1598): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Tue, 26 O...', 'This is a multi...')
+#1 /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php(1434): PHPMailer\PHPMailer\PHPMailer->postSend()
+#2 /home/terumopenpol/public_html/test/includes/functions/sendMail-test.php(17): PHPMailer\PHPMailer\PHPMailer->send()
+#3 {main}
+  thrown in /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php on line 1856
+[26-Oct-2021 14:23:13 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting in /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php:1856
+Stack trace:
+#0 /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php(1598): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Tue, 26 O...', 'This is a multi...')
+#1 /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php(1434): PHPMailer\PHPMailer\PHPMailer->postSend()
+#2 /home/terumopenpol/public_html/test/includes/functions/sendMail-test.php(17): PHPMailer\PHPMailer\PHPMailer->send()
+#3 {main}
+  thrown in /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php on line 1856
+[26-Oct-2021 14:23:28 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting in /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php:1856
+Stack trace:
+#0 /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php(1598): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Tue, 26 O...', 'This is a multi...')
+#1 /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php(1434): PHPMailer\PHPMailer\PHPMailer->postSend()
+#2 /home/terumopenpol/public_html/test/includes/functions/sendMail-test.php(17): PHPMailer\PHPMailer\PHPMailer->send()
+#3 {main}
+  thrown in /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php on line 1856
+[02-Nov-2021 07:30:39 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting in /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php:1971
+Stack trace:
+#0 /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php(1648): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Tue, 2 No...', 'This is a multi...')
+#1 /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php(1486): PHPMailer\PHPMailer\PHPMailer->postSend()
+#2 /home/terumopenpol/public_html/test/includes/functions/sendMail-test.php(17): PHPMailer\PHPMailer\PHPMailer->send()
+#3 {main}
+  thrown in /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php on line 1971
+[02-Nov-2021 07:30:45 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting in /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php:1971
+Stack trace:
+#0 /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php(1648): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Tue, 2 No...', 'This is a multi...')
+#1 /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php(1486): PHPMailer\PHPMailer\PHPMailer->postSend()
+#2 /home/terumopenpol/public_html/test/includes/functions/sendMail-test.php(17): PHPMailer\PHPMailer\PHPMailer->send()
+#3 {main}
+  thrown in /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php on line 1971
+[02-Nov-2021 07:31:26 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting in /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php:1971
+Stack trace:
+#0 /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php(1648): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Tue, 2 No...', 'This is a multi...')
+#1 /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php(1486): PHPMailer\PHPMailer\PHPMailer->postSend()
+#2 /home/terumopenpol/public_html/test/includes/functions/sendMail-test.php(17): PHPMailer\PHPMailer\PHPMailer->send()
+#3 {main}
+  thrown in /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php on line 1971
+[09-Nov-2021 06:00:43 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting in /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php:1971
+Stack trace:
+#0 /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php(1648): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Tue, 9 No...', 'This is a multi...')
+#1 /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php(1486): PHPMailer\PHPMailer\PHPMailer->postSend()
+#2 /home/terumopenpol/public_html/test/includes/functions/sendMail-test.php(17): PHPMailer\PHPMailer\PHPMailer->send()
+#3 {main}
+  thrown in /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php on line 1971
+[09-Nov-2021 08:57:06 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting in /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php:1971
+Stack trace:
+#0 /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php(1648): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Tue, 9 No...', 'This is a multi...')
+#1 /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php(1486): PHPMailer\PHPMailer\PHPMailer->postSend()
+#2 /home/terumopenpol/public_html/test/includes/functions/sendMail-test.php(17): PHPMailer\PHPMailer\PHPMailer->send()
+#3 {main}
+  thrown in /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php on line 1971
+[10-Nov-2021 04:27:03 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting in /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php:1971
+Stack trace:
+#0 /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php(1648): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Wed, 10 N...', 'This is a multi...')
+#1 /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php(1486): PHPMailer\PHPMailer\PHPMailer->postSend()
+#2 /home/terumopenpol/public_html/test/includes/functions/sendMail-test.php(17): PHPMailer\PHPMailer\PHPMailer->send()
+#3 {main}
+  thrown in /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php on line 1971
+[11-Nov-2021 13:31:06 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting in /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php:1971
+Stack trace:
+#0 /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php(1648): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Thu, 11 N...', 'This is a multi...')
+#1 /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php(1486): PHPMailer\PHPMailer\PHPMailer->postSend()
+#2 /home/terumopenpol/public_html/test/includes/functions/sendMail-test.php(17): PHPMailer\PHPMailer\PHPMailer->send()
+#3 {main}
+  thrown in /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php on line 1971
+[11-Nov-2021 13:32:43 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting in /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php:1971
+Stack trace:
+#0 /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php(1648): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Thu, 11 N...', 'This is a multi...')
+#1 /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php(1486): PHPMailer\PHPMailer\PHPMailer->postSend()
+#2 /home/terumopenpol/public_html/test/includes/functions/sendMail-test.php(17): PHPMailer\PHPMailer\PHPMailer->send()
+#3 {main}
+  thrown in /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php on line 1971
+[11-Nov-2021 13:32:46 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting in /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php:1971
+Stack trace:
+#0 /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php(1648): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Thu, 11 N...', 'This is a multi...')
+#1 /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php(1486): PHPMailer\PHPMailer\PHPMailer->postSend()
+#2 /home/terumopenpol/public_html/test/includes/functions/sendMail-test.php(17): PHPMailer\PHPMailer\PHPMailer->send()
+#3 {main}
+  thrown in /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php on line 1971
+[11-Nov-2021 13:32:48 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting in /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php:1971
+Stack trace:
+#0 /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php(1648): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Thu, 11 N...', 'This is a multi...')
+#1 /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php(1486): PHPMailer\PHPMailer\PHPMailer->postSend()
+#2 /home/terumopenpol/public_html/test/includes/functions/sendMail-test.php(17): PHPMailer\PHPMailer\PHPMailer->send()
+#3 {main}
+  thrown in /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php on line 1971
+[11-Nov-2021 13:53:35 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting in /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php:1971
+Stack trace:
+#0 /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php(1648): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Thu, 11 N...', 'This is a multi...')
+#1 /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php(1486): PHPMailer\PHPMailer\PHPMailer->postSend()
+#2 /home/terumopenpol/public_html/test/includes/functions/sendMail-test.php(17): PHPMailer\PHPMailer\PHPMailer->send()
+#3 {main}
+  thrown in /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php on line 1971
+[15-Nov-2021 10:23:58 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting in /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php:1971
+Stack trace:
+#0 /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php(1648): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Mon, 15 N...', 'This is a multi...')
+#1 /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php(1486): PHPMailer\PHPMailer\PHPMailer->postSend()
+#2 /home/terumopenpol/public_html/test/includes/functions/sendMail-test.php(17): PHPMailer\PHPMailer\PHPMailer->send()
+#3 {main}
+  thrown in /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php on line 1971
+[15-Nov-2021 10:23:59 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting in /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php:1971
+Stack trace:
+#0 /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php(1648): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Mon, 15 N...', 'This is a multi...')
+#1 /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php(1486): PHPMailer\PHPMailer\PHPMailer->postSend()
+#2 /home/terumopenpol/public_html/test/includes/functions/sendMail-test.php(17): PHPMailer\PHPMailer\PHPMailer->send()
+#3 {main}
+  thrown in /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php on line 1971
+[15-Nov-2021 11:40:00 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting in /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php:1971
+Stack trace:
+#0 /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php(1648): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Mon, 15 N...', 'This is a multi...')
+#1 /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php(1486): PHPMailer\PHPMailer\PHPMailer->postSend()
+#2 /home/terumopenpol/public_html/test/includes/functions/sendMail-test.php(17): PHPMailer\PHPMailer\PHPMailer->send()
+#3 {main}
+  thrown in /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php on line 1971
+[15-Nov-2021 11:40:03 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting in /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php:1971
+Stack trace:
+#0 /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php(1648): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Mon, 15 N...', 'This is a multi...')
+#1 /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php(1486): PHPMailer\PHPMailer\PHPMailer->postSend()
+#2 /home/terumopenpol/public_html/test/includes/functions/sendMail-test.php(17): PHPMailer\PHPMailer\PHPMailer->send()
+#3 {main}
+  thrown in /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php on line 1971
+[16-Nov-2021 04:13:59 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting in /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php:1971
+Stack trace:
+#0 /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php(1648): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Tue, 16 N...', 'This is a multi...')
+#1 /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php(1486): PHPMailer\PHPMailer\PHPMailer->postSend()
+#2 /home/terumopenpol/public_html/test/includes/functions/sendMail-test.php(17): PHPMailer\PHPMailer\PHPMailer->send()
+#3 {main}
+  thrown in /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php on line 1971
+[16-Nov-2021 04:38:19 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting in /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php:1971
+Stack trace:
+#0 /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php(1648): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Tue, 16 N...', 'This is a multi...')
+#1 /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php(1486): PHPMailer\PHPMailer\PHPMailer->postSend()
+#2 /home/terumopenpol/public_html/test/includes/functions/sendMail-test.php(17): PHPMailer\PHPMailer\PHPMailer->send()
+#3 {main}
+  thrown in /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php on line 1971
+[16-Nov-2021 05:04:31 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting in /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php:1971
+Stack trace:
+#0 /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php(1648): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Tue, 16 N...', 'This is a multi...')
+#1 /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php(1486): PHPMailer\PHPMailer\PHPMailer->postSend()
+#2 /home/terumopenpol/public_html/test/includes/functions/sendMail-test.php(17): PHPMailer\PHPMailer\PHPMailer->send()
+#3 {main}
+  thrown in /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php on line 1971
+[16-Nov-2021 05:46:13 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting in /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php:1971
+Stack trace:
+#0 /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php(1648): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Tue, 16 N...', 'This is a multi...')
+#1 /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php(1486): PHPMailer\PHPMailer\PHPMailer->postSend()
+#2 /home/terumopenpol/public_html/test/includes/functions/sendMail-test.php(17): PHPMailer\PHPMailer\PHPMailer->send()
+#3 {main}
+  thrown in /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php on line 1971
+[16-Nov-2021 06:12:47 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting in /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php:1971
+Stack trace:
+#0 /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php(1648): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Tue, 16 N...', 'This is a multi...')
+#1 /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php(1486): PHPMailer\PHPMailer\PHPMailer->postSend()
+#2 /home/terumopenpol/public_html/test/includes/functions/sendMail-test.php(17): PHPMailer\PHPMailer\PHPMailer->send()
+#3 {main}
+  thrown in /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php on line 1971
+[16-Nov-2021 06:13:31 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting in /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php:1971
+Stack trace:
+#0 /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php(1648): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Tue, 16 N...', 'This is a multi...')
+#1 /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php(1486): PHPMailer\PHPMailer\PHPMailer->postSend()
+#2 /home/terumopenpol/public_html/test/includes/functions/sendMail-test.php(17): PHPMailer\PHPMailer\PHPMailer->send()
+#3 {main}
+  thrown in /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php on line 1971
+[16-Nov-2021 06:15:27 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting in /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php:1971
+Stack trace:
+#0 /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php(1648): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Tue, 16 N...', 'This is a multi...')
+#1 /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php(1486): PHPMailer\PHPMailer\PHPMailer->postSend()
+#2 /home/terumopenpol/public_html/test/includes/functions/sendMail-test.php(17): PHPMailer\PHPMailer\PHPMailer->send()
+#3 {main}
+  thrown in /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php on line 1971
+[16-Nov-2021 07:00:54 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting in /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php:1971
+Stack trace:
+#0 /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php(1648): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Tue, 16 N...', 'This is a multi...')
+#1 /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php(1486): PHPMailer\PHPMailer\PHPMailer->postSend()
+#2 /home/terumopenpol/public_html/test/includes/functions/sendMail-test.php(17): PHPMailer\PHPMailer\PHPMailer->send()
+#3 {main}
+  thrown in /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php on line 1971
+[16-Nov-2021 12:07:10 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting in /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php:1971
+Stack trace:
+#0 /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php(1648): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Tue, 16 N...', 'This is a multi...')
+#1 /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php(1486): PHPMailer\PHPMailer\PHPMailer->postSend()
+#2 /home/terumopenpol/public_html/test/includes/functions/sendMail-test.php(17): PHPMailer\PHPMailer\PHPMailer->send()
+#3 {main}
+  thrown in /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php on line 1971
+[16-Nov-2021 12:16:55 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting in /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php:1971
+Stack trace:
+#0 /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php(1648): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Tue, 16 N...', 'This is a multi...')
+#1 /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php(1486): PHPMailer\PHPMailer\PHPMailer->postSend()
+#2 /home/terumopenpol/public_html/test/includes/functions/sendMail-test.php(17): PHPMailer\PHPMailer\PHPMailer->send()
+#3 {main}
+  thrown in /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php on line 1971
+[17-Nov-2021 06:30:43 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting in /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php:1971
+Stack trace:
+#0 /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php(1648): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Wed, 17 N...', 'This is a multi...')
+#1 /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php(1486): PHPMailer\PHPMailer\PHPMailer->postSend()
+#2 /home/terumopenpol/public_html/test/includes/functions/sendMail-test.php(17): PHPMailer\PHPMailer\PHPMailer->send()
+#3 {main}
+  thrown in /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php on line 1971
+[17-Nov-2021 06:30:47 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting in /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php:1971
+Stack trace:
+#0 /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php(1648): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Wed, 17 N...', 'This is a multi...')
+#1 /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php(1486): PHPMailer\PHPMailer\PHPMailer->postSend()
+#2 /home/terumopenpol/public_html/test/includes/functions/sendMail-test.php(17): PHPMailer\PHPMailer\PHPMailer->send()
+#3 {main}
+  thrown in /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php on line 1971
+[17-Nov-2021 06:37:06 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting in /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php:1971
+Stack trace:
+#0 /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php(1648): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Wed, 17 N...', 'This is a multi...')
+#1 /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php(1486): PHPMailer\PHPMailer\PHPMailer->postSend()
+#2 /home/terumopenpol/public_html/test/includes/functions/sendMail-test.php(17): PHPMailer\PHPMailer\PHPMailer->send()
+#3 {main}
+  thrown in /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php on line 1971
+[17-Nov-2021 06:41:46 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting in /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php:1971
+Stack trace:
+#0 /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php(1648): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Wed, 17 N...', 'This is a multi...')
+#1 /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php(1486): PHPMailer\PHPMailer\PHPMailer->postSend()
+#2 /home/terumopenpol/public_html/test/includes/functions/sendMail-test.php(17): PHPMailer\PHPMailer\PHPMailer->send()
+#3 {main}
+  thrown in /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php on line 1971
+[17-Nov-2021 06:41:52 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting in /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php:1971
+Stack trace:
+#0 /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php(1648): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Wed, 17 N...', 'This is a multi...')
+#1 /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php(1486): PHPMailer\PHPMailer\PHPMailer->postSend()
+#2 /home/terumopenpol/public_html/test/includes/functions/sendMail-test.php(17): PHPMailer\PHPMailer\PHPMailer->send()
+#3 {main}
+  thrown in /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php on line 1971
+[17-Nov-2021 06:41:55 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting in /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php:1971
+Stack trace:
+#0 /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php(1648): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Wed, 17 N...', 'This is a multi...')
+#1 /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php(1486): PHPMailer\PHPMailer\PHPMailer->postSend()
+#2 /home/terumopenpol/public_html/test/includes/functions/sendMail-test.php(17): PHPMailer\PHPMailer\PHPMailer->send()
+#3 {main}
+  thrown in /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php on line 1971
+[17-Nov-2021 06:42:25 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting in /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php:1971
+Stack trace:
+#0 /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php(1648): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Wed, 17 N...', 'This is a multi...')
+#1 /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php(1486): PHPMailer\PHPMailer\PHPMailer->postSend()
+#2 /home/terumopenpol/public_html/test/includes/functions/sendMail-test.php(17): PHPMailer\PHPMailer\PHPMailer->send()
+#3 {main}
+  thrown in /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php on line 1971
+[17-Nov-2021 06:42:29 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting in /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php:1971
+Stack trace:
+#0 /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php(1648): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Wed, 17 N...', 'This is a multi...')
+#1 /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php(1486): PHPMailer\PHPMailer\PHPMailer->postSend()
+#2 /home/terumopenpol/public_html/test/includes/functions/sendMail-test.php(17): PHPMailer\PHPMailer\PHPMailer->send()
+#3 {main}
+  thrown in /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php on line 1971
+[17-Nov-2021 06:43:16 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting in /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php:1971
+Stack trace:
+#0 /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php(1648): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Wed, 17 N...', 'This is a multi...')
+#1 /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php(1486): PHPMailer\PHPMailer\PHPMailer->postSend()
+#2 /home/terumopenpol/public_html/test/includes/functions/sendMail-test.php(17): PHPMailer\PHPMailer\PHPMailer->send()
+#3 {main}
+  thrown in /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php on line 1971
+[17-Nov-2021 06:43:39 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting in /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php:1971
+Stack trace:
+#0 /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php(1648): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Wed, 17 N...', 'This is a multi...')
+#1 /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php(1486): PHPMailer\PHPMailer\PHPMailer->postSend()
+#2 /home/terumopenpol/public_html/test/includes/functions/sendMail-test.php(17): PHPMailer\PHPMailer\PHPMailer->send()
+#3 {main}
+  thrown in /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php on line 1971
+[17-Nov-2021 07:02:40 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting in /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php:1971
+Stack trace:
+#0 /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php(1648): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Wed, 17 N...', 'This is a multi...')
+#1 /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php(1486): PHPMailer\PHPMailer\PHPMailer->postSend()
+#2 /home/terumopenpol/public_html/test/includes/functions/sendMail-test.php(17): PHPMailer\PHPMailer\PHPMailer->send()
+#3 {main}
+  thrown in /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php on line 1971
+[17-Nov-2021 07:03:02 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting in /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php:1971
+Stack trace:
+#0 /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php(1648): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Wed, 17 N...', 'This is a multi...')
+#1 /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php(1486): PHPMailer\PHPMailer\PHPMailer->postSend()
+#2 /home/terumopenpol/public_html/test/includes/functions/sendMail-test.php(17): PHPMailer\PHPMailer\PHPMailer->send()
+#3 {main}
+  thrown in /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php on line 1971
+[17-Nov-2021 07:03:05 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting in /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php:1971
+Stack trace:
+#0 /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php(1648): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Wed, 17 N...', 'This is a multi...')
+#1 /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php(1486): PHPMailer\PHPMailer\PHPMailer->postSend()
+#2 /home/terumopenpol/public_html/test/includes/functions/sendMail-test.php(17): PHPMailer\PHPMailer\PHPMailer->send()
+#3 {main}
+  thrown in /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php on line 1971
+[17-Nov-2021 07:03:25 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting in /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php:1971
+Stack trace:
+#0 /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php(1648): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Wed, 17 N...', 'This is a multi...')
+#1 /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php(1486): PHPMailer\PHPMailer\PHPMailer->postSend()
+#2 /home/terumopenpol/public_html/test/includes/functions/sendMail-test.php(17): PHPMailer\PHPMailer\PHPMailer->send()
+#3 {main}
+  thrown in /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php on line 1971
+[17-Nov-2021 07:03:33 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting in /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php:1971
+Stack trace:
+#0 /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php(1648): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Wed, 17 N...', 'This is a multi...')
+#1 /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php(1486): PHPMailer\PHPMailer\PHPMailer->postSend()
+#2 /home/terumopenpol/public_html/test/includes/functions/sendMail-test.php(17): PHPMailer\PHPMailer\PHPMailer->send()
+#3 {main}
+  thrown in /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php on line 1971
+[17-Nov-2021 07:30:00 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting in /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php:1971
+Stack trace:
+#0 /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php(1648): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Wed, 17 N...', 'This is a multi...')
+#1 /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php(1486): PHPMailer\PHPMailer\PHPMailer->postSend()
+#2 /home/terumopenpol/public_html/test/includes/functions/sendMail-test.php(17): PHPMailer\PHPMailer\PHPMailer->send()
+#3 {main}
+  thrown in /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php on line 1971
+[17-Nov-2021 08:50:44 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting in /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php:1971
+Stack trace:
+#0 /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php(1648): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Wed, 17 N...', 'This is a multi...')
+#1 /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php(1486): PHPMailer\PHPMailer\PHPMailer->postSend()
+#2 /home/terumopenpol/public_html/test/includes/functions/sendMail-test.php(17): PHPMailer\PHPMailer\PHPMailer->send()
+#3 {main}
+  thrown in /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php on line 1971
+[18-Nov-2021 06:26:09 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting in /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php:1971
+Stack trace:
+#0 /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php(1648): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Thu, 18 N...', 'This is a multi...')
+#1 /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php(1486): PHPMailer\PHPMailer\PHPMailer->postSend()
+#2 /home/terumopenpol/public_html/test/includes/functions/sendMail-test.php(17): PHPMailer\PHPMailer\PHPMailer->send()
+#3 {main}
+  thrown in /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php on line 1971
+[18-Nov-2021 06:29:05 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting in /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php:1971
+Stack trace:
+#0 /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php(1648): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Thu, 18 N...', 'This is a multi...')
+#1 /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php(1486): PHPMailer\PHPMailer\PHPMailer->postSend()
+#2 /home/terumopenpol/public_html/test/includes/functions/sendMail-test.php(17): PHPMailer\PHPMailer\PHPMailer->send()
+#3 {main}
+  thrown in /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php on line 1971
+[18-Nov-2021 06:34:44 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting in /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php:1971
+Stack trace:
+#0 /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php(1648): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Thu, 18 N...', 'This is a multi...')
+#1 /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php(1486): PHPMailer\PHPMailer\PHPMailer->postSend()
+#2 /home/terumopenpol/public_html/test/includes/functions/sendMail-test.php(17): PHPMailer\PHPMailer\PHPMailer->send()
+#3 {main}
+  thrown in /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php on line 1971
+[18-Nov-2021 06:38:49 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting in /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php:1971
+Stack trace:
+#0 /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php(1648): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Thu, 18 N...', 'This is a multi...')
+#1 /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php(1486): PHPMailer\PHPMailer\PHPMailer->postSend()
+#2 /home/terumopenpol/public_html/test/includes/functions/sendMail-test.php(17): PHPMailer\PHPMailer\PHPMailer->send()
+#3 {main}
+  thrown in /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php on line 1971
+[18-Nov-2021 06:42:21 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting in /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php:1971
+Stack trace:
+#0 /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php(1648): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Thu, 18 N...', 'This is a multi...')
+#1 /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php(1486): PHPMailer\PHPMailer\PHPMailer->postSend()
+#2 /home/terumopenpol/public_html/test/includes/functions/sendMail-test.php(17): PHPMailer\PHPMailer\PHPMailer->send()
+#3 {main}
+  thrown in /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php on line 1971
+[18-Nov-2021 06:48:15 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting in /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php:1971
+Stack trace:
+#0 /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php(1648): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Thu, 18 N...', 'This is a multi...')
+#1 /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php(1486): PHPMailer\PHPMailer\PHPMailer->postSend()
+#2 /home/terumopenpol/public_html/test/includes/functions/sendMail-test.php(17): PHPMailer\PHPMailer\PHPMailer->send()
+#3 {main}
+  thrown in /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php on line 1971
+[19-Nov-2021 05:37:47 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting in /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php:1971
+Stack trace:
+#0 /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php(1648): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Fri, 19 N...', 'This is a multi...')
+#1 /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php(1486): PHPMailer\PHPMailer\PHPMailer->postSend()
+#2 /home/terumopenpol/public_html/test/includes/functions/sendMail-test.php(17): PHPMailer\PHPMailer\PHPMailer->send()
+#3 {main}
+  thrown in /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php on line 1971
+[23-Nov-2021 07:19:00 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting in /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php:1971
+Stack trace:
+#0 /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php(1648): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Tue, 23 N...', 'This is a multi...')
+#1 /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php(1486): PHPMailer\PHPMailer\PHPMailer->postSend()
+#2 /home/terumopenpol/public_html/test/includes/functions/sendMail-test.php(17): PHPMailer\PHPMailer\PHPMailer->send()
+#3 {main}
+  thrown in /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php on line 1971
+[23-Nov-2021 07:23:01 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting in /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php:1971
+Stack trace:
+#0 /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php(1648): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Tue, 23 N...', 'This is a multi...')
+#1 /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php(1486): PHPMailer\PHPMailer\PHPMailer->postSend()
+#2 /home/terumopenpol/public_html/test/includes/functions/sendMail-test.php(17): PHPMailer\PHPMailer\PHPMailer->send()
+#3 {main}
+  thrown in /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php on line 1971
+[23-Nov-2021 07:25:15 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting in /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php:1971
+Stack trace:
+#0 /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php(1648): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Tue, 23 N...', 'This is a multi...')
+#1 /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php(1486): PHPMailer\PHPMailer\PHPMailer->postSend()
+#2 /home/terumopenpol/public_html/test/includes/functions/sendMail-test.php(17): PHPMailer\PHPMailer\PHPMailer->send()
+#3 {main}
+  thrown in /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php on line 1971
+[23-Nov-2021 07:59:28 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting in /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php:1971
+Stack trace:
+#0 /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php(1648): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Tue, 23 N...', 'This is a multi...')
+#1 /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php(1486): PHPMailer\PHPMailer\PHPMailer->postSend()
+#2 /home/terumopenpol/public_html/test/includes/functions/sendMail-test.php(17): PHPMailer\PHPMailer\PHPMailer->send()
+#3 {main}
+  thrown in /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php on line 1971
+[23-Nov-2021 07:59:31 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting in /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php:1971
+Stack trace:
+#0 /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php(1648): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Tue, 23 N...', 'This is a multi...')
+#1 /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php(1486): PHPMailer\PHPMailer\PHPMailer->postSend()
+#2 /home/terumopenpol/public_html/test/includes/functions/sendMail-test.php(17): PHPMailer\PHPMailer\PHPMailer->send()
+#3 {main}
+  thrown in /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php on line 1971
+[23-Nov-2021 08:02:53 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting in /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php:1971
+Stack trace:
+#0 /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php(1648): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Tue, 23 N...', 'This is a multi...')
+#1 /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php(1486): PHPMailer\PHPMailer\PHPMailer->postSend()
+#2 /home/terumopenpol/public_html/test/includes/functions/sendMail-test.php(17): PHPMailer\PHPMailer\PHPMailer->send()
+#3 {main}
+  thrown in /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php on line 1971
+[23-Nov-2021 08:03:46 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting in /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php:1971
+Stack trace:
+#0 /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php(1648): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Tue, 23 N...', 'This is a multi...')
+#1 /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php(1486): PHPMailer\PHPMailer\PHPMailer->postSend()
+#2 /home/terumopenpol/public_html/test/includes/functions/sendMail-test.php(17): PHPMailer\PHPMailer\PHPMailer->send()
+#3 {main}
+  thrown in /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php on line 1971
+[24-Nov-2021 10:57:22 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting in /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php:1971
+Stack trace:
+#0 /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php(1648): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Wed, 24 N...', 'This is a multi...')
+#1 /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php(1486): PHPMailer\PHPMailer\PHPMailer->postSend()
+#2 /home/terumopenpol/public_html/test/includes/functions/sendMail-test.php(17): PHPMailer\PHPMailer\PHPMailer->send()
+#3 {main}
+  thrown in /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php on line 1971
+[24-Nov-2021 11:00:39 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting in /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php:1971
+Stack trace:
+#0 /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php(1648): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Wed, 24 N...', 'This is a multi...')
+#1 /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php(1486): PHPMailer\PHPMailer\PHPMailer->postSend()
+#2 /home/terumopenpol/public_html/test/includes/functions/sendMail-test.php(17): PHPMailer\PHPMailer\PHPMailer->send()
+#3 {main}
+  thrown in /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php on line 1971
+[24-Nov-2021 11:01:24 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting in /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php:1971
+Stack trace:
+#0 /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php(1648): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Wed, 24 N...', 'This is a multi...')
+#1 /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php(1486): PHPMailer\PHPMailer\PHPMailer->postSend()
+#2 /home/terumopenpol/public_html/test/includes/functions/sendMail-test.php(17): PHPMailer\PHPMailer\PHPMailer->send()
+#3 {main}
+  thrown in /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php on line 1971
+[24-Nov-2021 11:01:25 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting in /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php:1971
+Stack trace:
+#0 /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php(1648): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Wed, 24 N...', 'This is a multi...')
+#1 /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php(1486): PHPMailer\PHPMailer\PHPMailer->postSend()
+#2 /home/terumopenpol/public_html/test/includes/functions/sendMail-test.php(17): PHPMailer\PHPMailer\PHPMailer->send()
+#3 {main}
+  thrown in /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php on line 1971
+[24-Nov-2021 11:02:26 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting in /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php:1971
+Stack trace:
+#0 /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php(1648): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Wed, 24 N...', 'This is a multi...')
+#1 /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php(1486): PHPMailer\PHPMailer\PHPMailer->postSend()
+#2 /home/terumopenpol/public_html/test/includes/functions/sendMail-test.php(17): PHPMailer\PHPMailer\PHPMailer->send()
+#3 {main}
+  thrown in /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php on line 1971
+[25-Nov-2021 17:17:40 UTC] PHP Fatal error:  Uncaught Error: Class 'SendGrid\Mail\Mail' not found in /home/terumopenpol/public_html/test/includes/functions/mail.php:89
+Stack trace:
+#0 /home/terumopenpol/public_html/test/includes/functions/sendMail-test.php(13): prepare_new_mail()
+#1 {main}
+  thrown in /home/terumopenpol/public_html/test/includes/functions/mail.php on line 89
+[25-Nov-2021 17:23:16 UTC] PHP Warning:  require(/home/terumopenpol/public_html/test/includes/functions/../smtp/vendor/sendgrid/sendgrid-php.php): failed to open stream: No such file or directory in /home/terumopenpol/public_html/test/includes/functions/mail.php on line 11
+[25-Nov-2021 17:23:16 UTC] PHP Warning:  require(/home/terumopenpol/public_html/test/includes/functions/../smtp/vendor/sendgrid/sendgrid-php.php): failed to open stream: No such file or directory in /home/terumopenpol/public_html/test/includes/functions/mail.php on line 11
+[25-Nov-2021 17:23:16 UTC] PHP Fatal error:  require(): Failed opening required '/home/terumopenpol/public_html/test/includes/functions/../smtp/vendor/sendgrid/sendgrid-php.php' (include_path='.:/opt/alt/php73/usr/share/pear') in /home/terumopenpol/public_html/test/includes/functions/mail.php on line 11
+[25-Nov-2021 17:24:06 UTC] PHP Warning:  require(/home/terumopenpol/public_html/test/includes/functions../smtp/vendor/sendgrid/sendgrid-php.php): failed to open stream: No such file or directory in /home/terumopenpol/public_html/test/includes/functions/mail.php on line 11
+[25-Nov-2021 17:24:06 UTC] PHP Warning:  require(/home/terumopenpol/public_html/test/includes/functions../smtp/vendor/sendgrid/sendgrid-php.php): failed to open stream: No such file or directory in /home/terumopenpol/public_html/test/includes/functions/mail.php on line 11
+[25-Nov-2021 17:24:06 UTC] PHP Fatal error:  require(): Failed opening required '/home/terumopenpol/public_html/test/includes/functions../smtp/vendor/sendgrid/sendgrid-php.php' (include_path='.:/opt/alt/php73/usr/share/pear') in /home/terumopenpol/public_html/test/includes/functions/mail.php on line 11
+[25-Nov-2021 17:24:29 UTC] PHP Warning:  require(/home/terumopenpol/public_html/test/includes/functions../smtp/vendor/sendgrid/sendgrid-php.php): failed to open stream: No such file or directory in /home/terumopenpol/public_html/test/includes/functions/mail.php on line 11
+[25-Nov-2021 17:24:29 UTC] PHP Warning:  require(/home/terumopenpol/public_html/test/includes/functions../smtp/vendor/sendgrid/sendgrid-php.php): failed to open stream: No such file or directory in /home/terumopenpol/public_html/test/includes/functions/mail.php on line 11
+[25-Nov-2021 17:24:29 UTC] PHP Fatal error:  require(): Failed opening required '/home/terumopenpol/public_html/test/includes/functions../smtp/vendor/sendgrid/sendgrid-php.php' (include_path='.:/opt/alt/php73/usr/share/pear') in /home/terumopenpol/public_html/test/includes/functions/mail.php on line 11
+[25-Nov-2021 17:24:36 UTC] PHP Warning:  require(/home/terumopenpol/public_html/test/includes/functions../smtp/vendor/sendgrid/sendgrid-php.php): failed to open stream: No such file or directory in /home/terumopenpol/public_html/test/includes/functions/mail.php on line 11
+[25-Nov-2021 17:24:36 UTC] PHP Warning:  require(/home/terumopenpol/public_html/test/includes/functions../smtp/vendor/sendgrid/sendgrid-php.php): failed to open stream: No such file or directory in /home/terumopenpol/public_html/test/includes/functions/mail.php on line 11
+[25-Nov-2021 17:24:36 UTC] PHP Fatal error:  require(): Failed opening required '/home/terumopenpol/public_html/test/includes/functions../smtp/vendor/sendgrid/sendgrid-php.php' (include_path='.:/opt/alt/php73/usr/share/pear') in /home/terumopenpol/public_html/test/includes/functions/mail.php on line 11
+[25-Nov-2021 17:24:37 UTC] PHP Warning:  require(/home/terumopenpol/public_html/test/includes/functions../smtp/vendor/sendgrid/sendgrid-php.php): failed to open stream: No such file or directory in /home/terumopenpol/public_html/test/includes/functions/mail.php on line 11
+[25-Nov-2021 17:24:37 UTC] PHP Warning:  require(/home/terumopenpol/public_html/test/includes/functions../smtp/vendor/sendgrid/sendgrid-php.php): failed to open stream: No such file or directory in /home/terumopenpol/public_html/test/includes/functions/mail.php on line 11
+[25-Nov-2021 17:24:37 UTC] PHP Fatal error:  require(): Failed opening required '/home/terumopenpol/public_html/test/includes/functions../smtp/vendor/sendgrid/sendgrid-php.php' (include_path='.:/opt/alt/php73/usr/share/pear') in /home/terumopenpol/public_html/test/includes/functions/mail.php on line 11
+[25-Nov-2021 17:26:16 UTC] PHP Warning:  require(/home/terumopenpol/public_html/test/includes/functions../smtp/vendor/sendgrid/sendgrid-php.php): failed to open stream: No such file or directory in /home/terumopenpol/public_html/test/includes/functions/mail.php on line 11
+[25-Nov-2021 17:26:16 UTC] PHP Warning:  require(/home/terumopenpol/public_html/test/includes/functions../smtp/vendor/sendgrid/sendgrid-php.php): failed to open stream: No such file or directory in /home/terumopenpol/public_html/test/includes/functions/mail.php on line 11
+[25-Nov-2021 17:26:16 UTC] PHP Fatal error:  require(): Failed opening required '/home/terumopenpol/public_html/test/includes/functions../smtp/vendor/sendgrid/sendgrid-php.php' (include_path='.:/opt/alt/php73/usr/share/pear') in /home/terumopenpol/public_html/test/includes/functions/mail.php on line 11
+[25-Nov-2021 17:26:57 UTC] PHP Warning:  require(/home/terumopenpol/public_html/test/includes/functions../smtp/vendor/sendgrid/sendgrid-php.php): failed to open stream: No such file or directory in /home/terumopenpol/public_html/test/includes/functions/mail.php on line 11
+[25-Nov-2021 17:26:57 UTC] PHP Warning:  require(/home/terumopenpol/public_html/test/includes/functions../smtp/vendor/sendgrid/sendgrid-php.php): failed to open stream: No such file or directory in /home/terumopenpol/public_html/test/includes/functions/mail.php on line 11
+[25-Nov-2021 17:26:57 UTC] PHP Fatal error:  require(): Failed opening required '/home/terumopenpol/public_html/test/includes/functions../smtp/vendor/sendgrid/sendgrid-php.php' (include_path='.:/opt/alt/php73/usr/share/pear') in /home/terumopenpol/public_html/test/includes/functions/mail.php on line 11
+[25-Nov-2021 17:27:00 UTC] PHP Warning:  require(/home/terumopenpol/public_html/test/includes/functions../smtp/vendor/sendgrid/sendgrid-php.php): failed to open stream: No such file or directory in /home/terumopenpol/public_html/test/includes/functions/mail.php on line 11
+[25-Nov-2021 17:27:00 UTC] PHP Warning:  require(/home/terumopenpol/public_html/test/includes/functions../smtp/vendor/sendgrid/sendgrid-php.php): failed to open stream: No such file or directory in /home/terumopenpol/public_html/test/includes/functions/mail.php on line 11
+[25-Nov-2021 17:27:00 UTC] PHP Fatal error:  require(): Failed opening required '/home/terumopenpol/public_html/test/includes/functions../smtp/vendor/sendgrid/sendgrid-php.php' (include_path='.:/opt/alt/php73/usr/share/pear') in /home/terumopenpol/public_html/test/includes/functions/mail.php on line 11
+[25-Nov-2021 17:28:31 UTC] PHP Warning:  require(/home/terumopenpol/public_html/test/includes/functionsincludes/smtp/vendor/sendgrid/sendgrid/sendgrid-php.php): failed to open stream: No such file or directory in /home/terumopenpol/public_html/test/includes/functions/mail.php on line 12
+[25-Nov-2021 17:28:31 UTC] PHP Warning:  require(/home/terumopenpol/public_html/test/includes/functionsincludes/smtp/vendor/sendgrid/sendgrid/sendgrid-php.php): failed to open stream: No such file or directory in /home/terumopenpol/public_html/test/includes/functions/mail.php on line 12
+[25-Nov-2021 17:28:31 UTC] PHP Fatal error:  require(): Failed opening required '/home/terumopenpol/public_html/test/includes/functionsincludes/smtp/vendor/sendgrid/sendgrid/sendgrid-php.php' (include_path='.:/opt/alt/php73/usr/share/pear') in /home/terumopenpol/public_html/test/includes/functions/mail.php on line 12
+[25-Nov-2021 17:29:14 UTC] PHP Warning:  require(/home/terumopenpol/public_html/test/includes/functions/includes/smtp/vendor/sendgrid/sendgrid/sendgrid-php.php): failed to open stream: No such file or directory in /home/terumopenpol/public_html/test/includes/functions/mail.php on line 12
+[25-Nov-2021 17:29:14 UTC] PHP Warning:  require(/home/terumopenpol/public_html/test/includes/functions/includes/smtp/vendor/sendgrid/sendgrid/sendgrid-php.php): failed to open stream: No such file or directory in /home/terumopenpol/public_html/test/includes/functions/mail.php on line 12
+[25-Nov-2021 17:29:14 UTC] PHP Fatal error:  require(): Failed opening required '/home/terumopenpol/public_html/test/includes/functions/includes/smtp/vendor/sendgrid/sendgrid/sendgrid-php.php' (include_path='.:/opt/alt/php73/usr/share/pear') in /home/terumopenpol/public_html/test/includes/functions/mail.php on line 12
+[25-Nov-2021 17:29:55 UTC] PHP Warning:  require(/home/terumopenpol/public_html/test/includes/functions/smtp/vendor/sendgrid/sendgrid/sendgrid-php.php): failed to open stream: No such file or directory in /home/terumopenpol/public_html/test/includes/functions/mail.php on line 12
+[25-Nov-2021 17:29:55 UTC] PHP Warning:  require(/home/terumopenpol/public_html/test/includes/functions/smtp/vendor/sendgrid/sendgrid/sendgrid-php.php): failed to open stream: No such file or directory in /home/terumopenpol/public_html/test/includes/functions/mail.php on line 12
+[25-Nov-2021 17:29:55 UTC] PHP Fatal error:  require(): Failed opening required '/home/terumopenpol/public_html/test/includes/functions/smtp/vendor/sendgrid/sendgrid/sendgrid-php.php' (include_path='.:/opt/alt/php73/usr/share/pear') in /home/terumopenpol/public_html/test/includes/functions/mail.php on line 12
+[25-Nov-2021 17:31:06 UTC] PHP Warning:  require(/home/terumopenpol/public_html/test/includes/functions../smtp/vendor/sendgrid/sendgrid/sendgrid-php.php): failed to open stream: No such file or directory in /home/terumopenpol/public_html/test/includes/functions/mail.php on line 12
+[25-Nov-2021 17:31:06 UTC] PHP Warning:  require(/home/terumopenpol/public_html/test/includes/functions../smtp/vendor/sendgrid/sendgrid/sendgrid-php.php): failed to open stream: No such file or directory in /home/terumopenpol/public_html/test/includes/functions/mail.php on line 12
+[25-Nov-2021 17:31:06 UTC] PHP Fatal error:  require(): Failed opening required '/home/terumopenpol/public_html/test/includes/functions../smtp/vendor/sendgrid/sendgrid/sendgrid-php.php' (include_path='.:/opt/alt/php73/usr/share/pear') in /home/terumopenpol/public_html/test/includes/functions/mail.php on line 12
+[25-Nov-2021 17:32:37 UTC] PHP Fatal error:  Uncaught Error: Class 'SendGrid\Mail\Mail' not found in /home/terumopenpol/public_html/test/includes/functions/mail.php:96
+Stack trace:
+#0 /home/terumopenpol/public_html/test/includes/functions/sendMail-test.php(13): prepare_new_mail()
+#1 {main}
+  thrown in /home/terumopenpol/public_html/test/includes/functions/mail.php on line 96
+[25-Nov-2021 17:36:43 UTC] Composer autoloader not found. Execute 'composer install' in the project folder first.
+[25-Nov-2021 17:36:43 UTC] PHP Fatal error:  Uncaught Error: Class 'SendGrid\Mail\Mail' not found in /home/terumopenpol/public_html/test/includes/functions/mail.php:97
+Stack trace:
+#0 /home/terumopenpol/public_html/test/includes/functions/sendMail-test.php(13): prepare_new_mail()
+#1 {main}
+  thrown in /home/terumopenpol/public_html/test/includes/functions/mail.php on line 97
+[25-Nov-2021 17:38:06 UTC] PHP Fatal error:  Uncaught Error: Call to a member function MsgHTML() on null in /home/terumopenpol/public_html/test/includes/functions/sendMail-test.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/terumopenpol/public_html/test/includes/functions/sendMail-test.php on line 14
+[25-Nov-2021 17:38:07 UTC] PHP Fatal error:  Uncaught Error: Call to a member function MsgHTML() on null in /home/terumopenpol/public_html/test/includes/functions/sendMail-test.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/terumopenpol/public_html/test/includes/functions/sendMail-test.php on line 14
+[25-Nov-2021 17:39:31 UTC] PHP Fatal error:  Uncaught Error: Call to a member function MsgHTML() on null in /home/terumopenpol/public_html/test/includes/functions/sendMail-test.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/terumopenpol/public_html/test/includes/functions/sendMail-test.php on line 14
+[26-Nov-2021 04:42:39 UTC] PHP Fatal error:  Uncaught Error: Call to a member function MsgHTML() on null in /home/terumopenpol/public_html/test/includes/functions/sendMail-test.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/terumopenpol/public_html/test/includes/functions/sendMail-test.php on line 14
+[27-Nov-2021 08:01:18 UTC] PHP Fatal error:  Uncaught Error: Call to a member function MsgHTML() on null in /home/terumopenpol/public_html/test/includes/functions/sendMail-test.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/terumopenpol/public_html/test/includes/functions/sendMail-test.php on line 14
+[27-Nov-2021 08:06:50 UTC] PHP Fatal error:  Uncaught Error: Call to a member function MsgHTML() on null in /home/terumopenpol/public_html/test/includes/functions/sendMail-test.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/terumopenpol/public_html/test/includes/functions/sendMail-test.php on line 14
+[27-Nov-2021 08:38:51 UTC] PHP Fatal error:  Uncaught Error: Call to a member function MsgHTML() on null in /home/terumopenpol/public_html/test/includes/functions/sendMail-test.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/terumopenpol/public_html/test/includes/functions/sendMail-test.php on line 14
+[27-Nov-2021 08:46:44 UTC] PHP Fatal error:  Uncaught Error: Call to a member function MsgHTML() on null in /home/terumopenpol/public_html/test/includes/functions/sendMail-test.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/terumopenpol/public_html/test/includes/functions/sendMail-test.php on line 14
+[27-Nov-2021 08:47:05 UTC] PHP Fatal error:  Uncaught Error: Call to a member function MsgHTML() on null in /home/terumopenpol/public_html/test/includes/functions/sendMail-test.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/terumopenpol/public_html/test/includes/functions/sendMail-test.php on line 14
+[29-Nov-2021 06:51:30 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting in /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php:1971
+Stack trace:
+#0 /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php(1648): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Mon, 29 N...', 'This is a multi...')
+#1 /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php(1486): PHPMailer\PHPMailer\PHPMailer->postSend()
+#2 /home/terumopenpol/public_html/test/includes/functions/sendMail-test.php(17): PHPMailer\PHPMailer\PHPMailer->send()
+#3 {main}
+  thrown in /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php on line 1971
+[29-Nov-2021 06:55:47 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting in /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php:1971
+Stack trace:
+#0 /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php(1648): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Mon, 29 N...', 'This is a multi...')
+#1 /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php(1486): PHPMailer\PHPMailer\PHPMailer->postSend()
+#2 /home/terumopenpol/public_html/test/includes/functions/sendMail-test.php(17): PHPMailer\PHPMailer\PHPMailer->send()
+#3 {main}
+  thrown in /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php on line 1971
+[29-Nov-2021 06:55:49 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting in /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php:1971
+Stack trace:
+#0 /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php(1648): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Mon, 29 N...', 'This is a multi...')
+#1 /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php(1486): PHPMailer\PHPMailer\PHPMailer->postSend()
+#2 /home/terumopenpol/public_html/test/includes/functions/sendMail-test.php(17): PHPMailer\PHPMailer\PHPMailer->send()
+#3 {main}
+  thrown in /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php on line 1971
+[29-Nov-2021 07:06:40 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting in /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php:1971
+Stack trace:
+#0 /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php(1648): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Mon, 29 N...', 'This is a multi...')
+#1 /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php(1486): PHPMailer\PHPMailer\PHPMailer->postSend()
+#2 /home/terumopenpol/public_html/test/includes/functions/sendMail-test.php(17): PHPMailer\PHPMailer\PHPMailer->send()
+#3 {main}
+  thrown in /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php on line 1971
+[29-Nov-2021 07:06:43 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting in /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php:1971
+Stack trace:
+#0 /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php(1648): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Mon, 29 N...', 'This is a multi...')
+#1 /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php(1486): PHPMailer\PHPMailer\PHPMailer->postSend()
+#2 /home/terumopenpol/public_html/test/includes/functions/sendMail-test.php(17): PHPMailer\PHPMailer\PHPMailer->send()
+#3 {main}
+  thrown in /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php on line 1971
+[29-Nov-2021 07:18:18 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting in /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php:1971
+Stack trace:
+#0 /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php(1648): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Mon, 29 N...', 'This is a multi...')
+#1 /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php(1486): PHPMailer\PHPMailer\PHPMailer->postSend()
+#2 /home/terumopenpol/public_html/test/includes/functions/sendMail-test.php(17): PHPMailer\PHPMailer\PHPMailer->send()
+#3 {main}
+  thrown in /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php on line 1971
+[29-Nov-2021 07:21:05 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting in /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php:1971
+Stack trace:
+#0 /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php(1648): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Mon, 29 N...', 'This is a multi...')
+#1 /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php(1486): PHPMailer\PHPMailer\PHPMailer->postSend()
+#2 /home/terumopenpol/public_html/test/includes/functions/sendMail-test.php(17): PHPMailer\PHPMailer\PHPMailer->send()
+#3 {main}
+  thrown in /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php on line 1971
+[29-Nov-2021 07:22:48 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting in /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php:1971
+Stack trace:
+#0 /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php(1648): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Mon, 29 N...', 'This is a multi...')
+#1 /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php(1486): PHPMailer\PHPMailer\PHPMailer->postSend()
+#2 /home/terumopenpol/public_html/test/includes/functions/sendMail-test.php(17): PHPMailer\PHPMailer\PHPMailer->send()
+#3 {main}
+  thrown in /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php on line 1971
+[29-Nov-2021 07:24:39 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting in /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php:1971
+Stack trace:
+#0 /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php(1648): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Mon, 29 N...', 'This is a multi...')
+#1 /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php(1486): PHPMailer\PHPMailer\PHPMailer->postSend()
+#2 /home/terumopenpol/public_html/test/includes/functions/sendMail-test.php(17): PHPMailer\PHPMailer\PHPMailer->send()
+#3 {main}
+  thrown in /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php on line 1971
+[30-Nov-2021 07:14:47 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting in /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php:1971
+Stack trace:
+#0 /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php(1648): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Tue, 30 N...', 'This is a multi...')
+#1 /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php(1486): PHPMailer\PHPMailer\PHPMailer->postSend()
+#2 /home/terumopenpol/public_html/test/includes/functions/sendMail-test.php(17): PHPMailer\PHPMailer\PHPMailer->send()
+#3 {main}
+  thrown in /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php on line 1971
+[30-Nov-2021 07:22:46 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting in /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php:1971
+Stack trace:
+#0 /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php(1648): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Tue, 30 N...', 'This is a multi...')
+#1 /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php(1486): PHPMailer\PHPMailer\PHPMailer->postSend()
+#2 /home/terumopenpol/public_html/test/includes/functions/sendMail-test.php(17): PHPMailer\PHPMailer\PHPMailer->send()
+#3 {main}
+  thrown in /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php on line 1971
+[30-Nov-2021 07:23:41 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting in /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php:1971
+Stack trace:
+#0 /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php(1648): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Tue, 30 N...', 'This is a multi...')
+#1 /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php(1486): PHPMailer\PHPMailer\PHPMailer->postSend()
+#2 /home/terumopenpol/public_html/test/includes/functions/sendMail-test.php(17): PHPMailer\PHPMailer\PHPMailer->send()
+#3 {main}
+  thrown in /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php on line 1971
+[30-Nov-2021 07:24:52 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting in /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php:1971
+Stack trace:
+#0 /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php(1648): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Tue, 30 N...', 'This is a multi...')
+#1 /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php(1486): PHPMailer\PHPMailer\PHPMailer->postSend()
+#2 /home/terumopenpol/public_html/test/includes/functions/sendMail-test.php(17): PHPMailer\PHPMailer\PHPMailer->send()
+#3 {main}
+  thrown in /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php on line 1971
+[30-Nov-2021 07:25:03 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting in /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php:1971
+Stack trace:
+#0 /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php(1648): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Tue, 30 N...', 'This is a multi...')
+#1 /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php(1486): PHPMailer\PHPMailer\PHPMailer->postSend()
+#2 /home/terumopenpol/public_html/test/includes/functions/sendMail-test.php(17): PHPMailer\PHPMailer\PHPMailer->send()
+#3 {main}
+  thrown in /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php on line 1971
+[30-Nov-2021 07:26:46 UTC] PHP Fatal error:  Uncaught Error: Class 'Mail' not found in /home/terumopenpol/public_html/test/includes/functions/mail.php:98
+Stack trace:
+#0 /home/terumopenpol/public_html/test/includes/functions/mail.php(14): prepare_new_mail()
+#1 /home/terumopenpol/public_html/test/includes/functions/sendMail-test.php(11): include_once('/home/terumopen...')
+#2 {main}
+  thrown in /home/terumopenpol/public_html/test/includes/functions/mail.php on line 98
+[30-Nov-2021 07:32:56 UTC] PHP Fatal error:  Uncaught Error: Class 'Mail' not found in /home/terumopenpol/public_html/test/includes/functions/mail.php:98
+Stack trace:
+#0 /home/terumopenpol/public_html/test/includes/functions/mail.php(14): prepare_new_mail()
+#1 /home/terumopenpol/public_html/test/includes/functions/sendMail-test.php(11): include_once('/home/terumopen...')
+#2 {main}
+  thrown in /home/terumopenpol/public_html/test/includes/functions/mail.php on line 98
+[30-Nov-2021 07:43:12 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting in /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php:1971
+Stack trace:
+#0 /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php(1648): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Tue, 30 N...', 'This is a multi...')
+#1 /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php(1486): PHPMailer\PHPMailer\PHPMailer->postSend()
+#2 /home/terumopenpol/public_html/test/includes/functions/sendMail-test.php(17): PHPMailer\PHPMailer\PHPMailer->send()
+#3 {main}
+  thrown in /home/terumopenpol/public_html/test/includes/smtp/src/PHPMailer.php on line 1971
+[30-Nov-2021 07:58:17 UTC] PHP Warning:  include_once(Net/SMTP.php): failed to open stream: No such file or directory in /home/terumopenpol/public_html/test/includes/smtp/Mail-master/Mail/smtp.php on line 365
+[30-Nov-2021 07:58:17 UTC] PHP Warning:  include_once(): Failed opening 'Net/SMTP.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/terumopenpol/public_html/test/includes/smtp/Mail-master/Mail/smtp.php on line 365
+[30-Nov-2021 07:58:17 UTC] PHP Fatal error:  Uncaught Error: Class 'Net_SMTP' not found in /home/terumopenpol/public_html/test/includes/smtp/Mail-master/Mail/smtp.php:366
+Stack trace:
+#0 /home/terumopenpol/public_html/test/includes/smtp/Mail-master/Mail/smtp.php(271): Mail_smtp->getSMTPObject()
+#1 /home/terumopenpol/public_html/test/includes/smtp/Mail-master/Mail/smtp.php(258): Mail_smtp->send_or_fail('shanitp008@gmai...', Array, 'whatever you li...')
+#2 /home/terumopenpol/public_html/test/includes/functions/mail.php(109): Mail_smtp->send('shanitp008@gmai...', Array, 'whatever you li...')
+#3 /home/terumopenpol/public_html/test/includes/functions/sendMail-test.php(13): prepare_new_mail()
+#4 {main}
+  thrown in /home/terumopenpol/public_html/test/includes/smtp/Mail-master/Mail/smtp.php on line 366
+[30-Nov-2021 08:03:01 UTC] PHP Warning:  include_once(Net/SMTP.php): failed to open stream: No such file or directory in /home/terumopenpol/public_html/test/includes/smtp/Mail-master/Mail/smtp.php on line 365
+[30-Nov-2021 08:03:01 UTC] PHP Warning:  include_once(): Failed opening 'Net/SMTP.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/terumopenpol/public_html/test/includes/smtp/Mail-master/Mail/smtp.php on line 365
+[30-Nov-2021 08:03:01 UTC] PHP Fatal error:  Uncaught Error: Class 'Net_SMTP' not found in /home/terumopenpol/public_html/test/includes/smtp/Mail-master/Mail/smtp.php:366
+Stack trace:
+#0 /home/terumopenpol/public_html/test/includes/smtp/Mail-master/Mail/smtp.php(271): Mail_smtp->getSMTPObject()
+#1 /home/terumopenpol/public_html/test/includes/smtp/Mail-master/Mail/smtp.php(258): Mail_smtp->send_or_fail('shanitp008@gmai...', Array, 'whatever you li...')
+#2 /home/terumopenpol/public_html/test/includes/functions/mail.php(109): Mail_smtp->send('shanitp008@gmai...', Array, 'whatever you li...')
+#3 /home/terumopenpol/public_html/test/includes/functions/sendMail-test.php(13): prepare_new_mail()
+#4 {main}
+  thrown in /home/terumopenpol/public_html/test/includes/smtp/Mail-master/Mail/smtp.php on line 366
+[30-Nov-2021 08:26:16 UTC] PHP Warning:  include_once(Net/SMTP.php): failed to open stream: No such file or directory in /home/terumopenpol/public_html/test/includes/smtp/Mail-master/Mail/smtp.php on line 365
+[30-Nov-2021 08:26:16 UTC] PHP Warning:  include_once(): Failed opening 'Net/SMTP.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/terumopenpol/public_html/test/includes/smtp/Mail-master/Mail/smtp.php on line 365
+[30-Nov-2021 08:26:16 UTC] PHP Fatal error:  Uncaught Error: Class 'Net_SMTP' not found in /home/terumopenpol/public_html/test/includes/smtp/Mail-master/Mail/smtp.php:366
+Stack trace:
+#0 /home/terumopenpol/public_html/test/includes/smtp/Mail-master/Mail/smtp.php(271): Mail_smtp->getSMTPObject()
+#1 /home/terumopenpol/public_html/test/includes/smtp/Mail-master/Mail/smtp.php(258): Mail_smtp->send_or_fail('shanitp008@gmai...', Array, 'whatever you li...')
+#2 /home/terumopenpol/public_html/test/includes/functions/mail.php(109): Mail_smtp->send('shanitp008@gmai...', Array, 'whatever you li...')
+#3 /home/terumopenpol/public_html/test/includes/functions/sendMail-test.php(13): prepare_new_mail()
+#4 {main}
+  thrown in /home/terumopenpol/public_html/test/includes/smtp/Mail-master/Mail/smtp.php on line 366
+[30-Nov-2021 09:16:35 UTC] PHP Warning:  require_once(Net/Socket.php): failed to open stream: No such file or directory in /home/terumopenpol/public_html/test/includes/smtp/Mail-master/Mail/Net/SMTP.php on line 40
+[30-Nov-2021 09:16:35 UTC] PHP Fatal error:  require_once(): Failed opening required 'Net/Socket.php' (include_path='.:/opt/alt/php73/usr/share/pear') in /home/terumopenpol/public_html/test/includes/smtp/Mail-master/Mail/Net/SMTP.php on line 40
+[30-Nov-2021 09:17:38 UTC] PHP Warning:  require_once(Net/Socket.php): failed to open stream: No such file or directory in /home/terumopenpol/public_html/test/includes/smtp/Mail-master/Mail/Net/SMTP.php on line 40
+[30-Nov-2021 09:17:38 UTC] PHP Fatal error:  require_once(): Failed opening required 'Net/Socket.php' (include_path='.:/opt/alt/php73/usr/share/pear') in /home/terumopenpol/public_html/test/includes/smtp/Mail-master/Mail/Net/SMTP.php on line 40
+[30-Nov-2021 09:17:46 UTC] PHP Warning:  require_once(Net/Socket.php): failed to open stream: No such file or directory in /home/terumopenpol/public_html/test/includes/smtp/Mail-master/Mail/Net/SMTP.php on line 40
+[30-Nov-2021 09:17:46 UTC] PHP Fatal error:  require_once(): Failed opening required 'Net/Socket.php' (include_path='.:/opt/alt/php73/usr/share/pear') in /home/terumopenpol/public_html/test/includes/smtp/Mail-master/Mail/Net/SMTP.php on line 40
+[30-Nov-2021 09:18:17 UTC] PHP Warning:  require_once(Net/Socket.php): failed to open stream: No such file or directory in /home/terumopenpol/public_html/test/includes/smtp/Mail-master/Mail/Net/SMTP.php on line 40
+[30-Nov-2021 09:18:17 UTC] PHP Fatal error:  require_once(): Failed opening required 'Net/Socket.php' (include_path='.:/opt/alt/php73/usr/share/pear') in /home/terumopenpol/public_html/test/includes/smtp/Mail-master/Mail/Net/SMTP.php on line 40
+[30-Nov-2021 09:18:19 UTC] PHP Warning:  require_once(Net/Socket.php): failed to open stream: No such file or directory in /home/terumopenpol/public_html/test/includes/smtp/Mail-master/Mail/Net/SMTP.php on line 40
+[30-Nov-2021 09:18:19 UTC] PHP Fatal error:  require_once(): Failed opening required 'Net/Socket.php' (include_path='.:/opt/alt/php73/usr/share/pear') in /home/terumopenpol/public_html/test/includes/smtp/Mail-master/Mail/Net/SMTP.php on line 40
+[30-Nov-2021 09:19:30 UTC] PHP Warning:  require_once(Net/Socket.php): failed to open stream: No such file or directory in /home/terumopenpol/public_html/test/includes/smtp/Mail-master/Mail/Net/SMTP.php on line 40
+[30-Nov-2021 09:19:30 UTC] PHP Fatal error:  require_once(): Failed opening required 'Net/Socket.php' (include_path='.:/opt/alt/php73/usr/share/pear') in /home/terumopenpol/public_html/test/includes/smtp/Mail-master/Mail/Net/SMTP.php on line 40
+[30-Nov-2021 09:19:56 UTC] PHP Warning:  include_once(Net/SMTP.php): failed to open stream: No such file or directory in /home/terumopenpol/public_html/test/includes/smtp/Mail-master/Mail/smtp.php on line 365
+[30-Nov-2021 09:19:56 UTC] PHP Warning:  include_once(): Failed opening 'Net/SMTP.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/terumopenpol/public_html/test/includes/smtp/Mail-master/Mail/smtp.php on line 365
+[30-Nov-2021 09:19:56 UTC] PHP Fatal error:  Uncaught Error: Class 'Net_SMTP' not found in /home/terumopenpol/public_html/test/includes/smtp/Mail-master/Mail/smtp.php:366
+Stack trace:
+#0 /home/terumopenpol/public_html/test/includes/smtp/Mail-master/Mail/smtp.php(271): Mail_smtp->getSMTPObject()
+#1 /home/terumopenpol/public_html/test/includes/smtp/Mail-master/Mail/smtp.php(258): Mail_smtp->send_or_fail('shanitp008@gmai...', Array, 'whatever you li...')
+#2 /home/terumopenpol/public_html/test/includes/functions/mail.php(109): Mail_smtp->send('shanitp008@gmai...', Array, 'whatever you li...')
+#3 /home/terumopenpol/public_html/test/includes/functions/sendMail-test.php(13): prepare_new_mail()
+#4 {main}
+  thrown in /home/terumopenpol/public_html/test/includes/smtp/Mail-master/Mail/smtp.php on line 366
+[30-Nov-2021 09:21:16 UTC] PHP Warning:  include_once(Net/SMTP.php): failed to open stream: No such file or directory in /home/terumopenpol/public_html/test/includes/smtp/Mail-master/Mail/smtp.php on line 365
+[30-Nov-2021 09:21:16 UTC] PHP Warning:  include_once(): Failed opening 'Net/SMTP.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/terumopenpol/public_html/test/includes/smtp/Mail-master/Mail/smtp.php on line 365
+[30-Nov-2021 09:21:16 UTC] PHP Fatal error:  Uncaught Error: Class 'Net_SMTP' not found in /home/terumopenpol/public_html/test/includes/smtp/Mail-master/Mail/smtp.php:366
+Stack trace:
+#0 /home/terumopenpol/public_html/test/includes/smtp/Mail-master/Mail/smtp.php(271): Mail_smtp->getSMTPObject()
+#1 /home/terumopenpol/public_html/test/includes/smtp/Mail-master/Mail/smtp.php(258): Mail_smtp->send_or_fail('shanitp008@gmai...', Array, 'whatever you li...')
+#2 /home/terumopenpol/public_html/test/includes/functions/mail.php(109): Mail_smtp->send('shanitp008@gmai...', Array, 'whatever you li...')
+#3 /home/terumopenpol/public_html/test/includes/functions/sendMail-test.php(13): prepare_new_mail()
+#4 {main}
+  thrown in /home/terumopenpol/public_html/test/includes/smtp/Mail-master/Mail/smtp.php on line 366
+[30-Nov-2021 09:51:43 UTC] PHP Warning:  include_once(Net/SMTP.php): failed to open stream: No such file or directory in /home/terumopenpol/public_html/test/includes/smtp/Mail-master/Mail/smtp.php on line 365
+[30-Nov-2021 09:51:43 UTC] PHP Warning:  include_once(): Failed opening 'Net/SMTP.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/terumopenpol/public_html/test/includes/smtp/Mail-master/Mail/smtp.php on line 365
+[30-Nov-2021 09:51:43 UTC] PHP Fatal error:  Uncaught Error: Class 'Net_SMTP' not found in /home/terumopenpol/public_html/test/includes/smtp/Mail-master/Mail/smtp.php:366
+Stack trace:
+#0 /home/terumopenpol/public_html/test/includes/smtp/Mail-master/Mail/smtp.php(271): Mail_smtp->getSMTPObject()
+#1 /home/terumopenpol/public_html/test/includes/smtp/Mail-master/Mail/smtp.php(258): Mail_smtp->send_or_fail('shanitp008@gmai...', Array, 'whatever you li...')
+#2 /home/terumopenpol/public_html/test/includes/functions/mail.php(109): Mail_smtp->send('shanitp008@gmai...', Array, 'whatever you li...')
+#3 /home/terumopenpol/public_html/test/includes/functions/sendMail-test.php(13): prepare_new_mail()
+#4 {main}
+  thrown in /home/terumopenpol/public_html/test/includes/smtp/Mail-master/Mail/smtp.php on line 366
+[01-Dec-2021 09:18:20 UTC] PHP Warning:  include_once(Net/SMTP.php): failed to open stream: No such file or directory in /home/terumopenpol/public_html/test/includes/smtp/Mail-master/Mail/smtp.php on line 365
+[01-Dec-2021 09:18:20 UTC] PHP Warning:  include_once(): Failed opening 'Net/SMTP.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/terumopenpol/public_html/test/includes/smtp/Mail-master/Mail/smtp.php on line 365
+[01-Dec-2021 09:18:20 UTC] PHP Fatal error:  Uncaught Error: Class 'Net_SMTP' not found in /home/terumopenpol/public_html/test/includes/smtp/Mail-master/Mail/smtp.php:366
+Stack trace:
+#0 /home/terumopenpol/public_html/test/includes/smtp/Mail-master/Mail/smtp.php(271): Mail_smtp->getSMTPObject()
+#1 /home/terumopenpol/public_html/test/includes/smtp/Mail-master/Mail/smtp.php(258): Mail_smtp->send_or_fail('shanitp008@gmai...', Array, 'whatever you li...')
+#2 /home/terumopenpol/public_html/test/includes/functions/mail.php(109): Mail_smtp->send('shanitp008@gmai...', Array, 'whatever you li...')
+#3 /home/terumopenpol/public_html/test/includes/functions/sendMail-test.php(13): prepare_new_mail()
+#4 {main}
+  thrown in /home/terumopenpol/public_html/test/includes/smtp/Mail-master/Mail/smtp.php on line 366
+[01-Dec-2021 09:18:37 UTC] PHP Warning:  include_once(Net/SMTP.php): failed to open stream: No such file or directory in /home/terumopenpol/public_html/test/includes/smtp/Mail-master/Mail/smtp.php on line 365
+[01-Dec-2021 09:18:37 UTC] PHP Warning:  include_once(): Failed opening 'Net/SMTP.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/terumopenpol/public_html/test/includes/smtp/Mail-master/Mail/smtp.php on line 365
+[01-Dec-2021 09:18:37 UTC] PHP Fatal error:  Uncaught Error: Class 'Net_SMTP' not found in /home/terumopenpol/public_html/test/includes/smtp/Mail-master/Mail/smtp.php:366
+Stack trace:
+#0 /home/terumopenpol/public_html/test/includes/smtp/Mail-master/Mail/smtp.php(271): Mail_smtp->getSMTPObject()
+#1 /home/terumopenpol/public_html/test/includes/smtp/Mail-master/Mail/smtp.php(258): Mail_smtp->send_or_fail('shanitp008@gmai...', Array, 'whatever you li...')
+#2 /home/terumopenpol/public_html/test/includes/functions/mail.php(109): Mail_smtp->send('shanitp008@gmai...', Array, 'whatever you li...')
+#3 /home/terumopenpol/public_html/test/includes/functions/sendMail-test.php(13): prepare_new_mail()
+#4 {main}
+  thrown in /home/terumopenpol/public_html/test/includes/smtp/Mail-master/Mail/smtp.php on line 366
+[01-Dec-2021 09:19:14 UTC] PHP Warning:  include_once(Net/SMTP.php): failed to open stream: No such file or directory in /home/terumopenpol/public_html/test/includes/smtp/Mail-master/Mail/smtp.php on line 365
+[01-Dec-2021 09:19:14 UTC] PHP Warning:  include_once(): Failed opening 'Net/SMTP.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/terumopenpol/public_html/test/includes/smtp/Mail-master/Mail/smtp.php on line 365
+[01-Dec-2021 09:19:14 UTC] PHP Fatal error:  Uncaught Error: Class 'Net_SMTP' not found in /home/terumopenpol/public_html/test/includes/smtp/Mail-master/Mail/smtp.php:366
+Stack trace:
+#0 /home/terumopenpol/public_html/test/includes/smtp/Mail-master/Mail/smtp.php(271): Mail_smtp->getSMTPObject()
+#1 /home/terumopenpol/public_html/test/includes/smtp/Mail-master/Mail/smtp.php(258): Mail_smtp->send_or_fail('shanitp008@gmai...', Array, 'whatever you li...')
+#2 /home/terumopenpol/public_html/test/includes/functions/mail.php(109): Mail_smtp->send('shanitp008@gmai...', Array, 'whatever you li...')
+#3 /home/terumopenpol/public_html/test/includes/functions/sendMail-test.php(13): prepare_new_mail()
+#4 {main}
+  thrown in /home/terumopenpol/public_html/test/includes/smtp/Mail-master/Mail/smtp.php on line 366
+[01-Dec-2021 09:31:54 UTC] PHP Warning:  Use of undefined constant DIR_FUNCTIONS - assumed 'DIR_FUNCTIONS' (this will throw an Error in a future version of PHP) in /home/terumopenpol/public_html/test/includes/functions/sent_mail.php on line 4
+[01-Dec-2021 09:31:54 UTC] PHP Warning:  include_once(DIR_FUNCTIONSmail.php): failed to open stream: No such file or directory in /home/terumopenpol/public_html/test/includes/functions/sent_mail.php on line 4
+[01-Dec-2021 09:31:54 UTC] PHP Warning:  include_once(): Failed opening 'DIR_FUNCTIONSmail.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/terumopenpol/public_html/test/includes/functions/sent_mail.php on line 4
+[01-Dec-2021 09:32:05 UTC] PHP Warning:  Use of undefined constant DIR_FUNCTIONS - assumed 'DIR_FUNCTIONS' (this will throw an Error in a future version of PHP) in /home/terumopenpol/public_html/test/includes/functions/sent_mail.php on line 4
+[01-Dec-2021 09:32:05 UTC] PHP Warning:  include_once(DIR_FUNCTIONSmail.php): failed to open stream: No such file or directory in /home/terumopenpol/public_html/test/includes/functions/sent_mail.php on line 4
+[01-Dec-2021 09:32:05 UTC] PHP Warning:  include_once(): Failed opening 'DIR_FUNCTIONSmail.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/terumopenpol/public_html/test/includes/functions/sent_mail.php on line 4
+[01-Dec-2021 09:51:51 UTC] PHP Warning:  include_once(Net/SMTP.php): failed to open stream: No such file or directory in /home/terumopenpol/public_html/test/includes/smtp/Mail-master/Mail/smtp.php on line 365
+[01-Dec-2021 09:51:51 UTC] PHP Warning:  include_once(): Failed opening 'Net/SMTP.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/terumopenpol/public_html/test/includes/smtp/Mail-master/Mail/smtp.php on line 365
+[01-Dec-2021 09:51:51 UTC] PHP Fatal error:  Uncaught Error: Class 'Net_SMTP' not found in /home/terumopenpol/public_html/test/includes/smtp/Mail-master/Mail/smtp.php:366
+Stack trace:
+#0 /home/terumopenpol/public_html/test/includes/smtp/Mail-master/Mail/smtp.php(271): Mail_smtp->getSMTPObject()
+#1 /home/terumopenpol/public_html/test/includes/smtp/Mail-master/Mail/smtp.php(258): Mail_smtp->send_or_fail('shanitp008@gmai...', Array, 'whatever you li...')
+#2 /home/terumopenpol/public_html/test/includes/functions/mail.php(109): Mail_smtp->send('shanitp008@gmai...', Array, 'whatever you li...')
+#3 /home/terumopenpol/public_html/test/includes/functions/sendMail-test.php(13): prepare_new_mail()
+#4 {main}
+  thrown in /home/terumopenpol/public_html/test/includes/smtp/Mail-master/Mail/smtp.php on line 366
+[02-Dec-2021 04:47:44 UTC] PHP Warning:  include_once(Net/SMTP.php): failed to open stream: No such file or directory in /home/terumopenpol/public_html/test/includes/smtp/Mail-master/Mail/smtp.php on line 365
+[02-Dec-2021 04:47:44 UTC] PHP Warning:  include_once(): Failed opening 'Net/SMTP.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/terumopenpol/public_html/test/includes/smtp/Mail-master/Mail/smtp.php on line 365
+[02-Dec-2021 04:47:44 UTC] PHP Fatal error:  Uncaught Error: Class 'Net_SMTP' not found in /home/terumopenpol/public_html/test/includes/smtp/Mail-master/Mail/smtp.php:366
+Stack trace:
+#0 /home/terumopenpol/public_html/test/includes/smtp/Mail-master/Mail/smtp.php(271): Mail_smtp->getSMTPObject()
+#1 /home/terumopenpol/public_html/test/includes/smtp/Mail-master/Mail/smtp.php(258): Mail_smtp->send_or_fail('shanitp008@gmai...', Array, 'whatever you li...')
+#2 /home/terumopenpol/public_html/test/includes/functions/mail.php(109): Mail_smtp->send('shanitp008@gmai...', Array, 'whatever you li...')
+#3 /home/terumopenpol/public_html/test/includes/functions/sendMail-test.php(13): prepare_new_mail()
+#4 {main}
+  thrown in /home/terumopenpol/public_html/test/includes/smtp/Mail-master/Mail/smtp.php on line 366
+[06-Dec-2021 05:05:41 UTC] PHP Fatal error:  Uncaught Error: Call to a member function MsgHTML() on null in /home/terumopenpol/public_html/test/includes/functions/sendMail-test.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/terumopenpol/public_html/test/includes/functions/sendMail-test.php on line 14
+[06-Dec-2021 05:06:47 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method SendGrid\Mail\Mail::MsgHTML() in /home/terumopenpol/public_html/test/includes/functions/sendMail-test.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/terumopenpol/public_html/test/includes/functions/sendMail-test.php on line 14
+[06-Dec-2021 06:44:56 UTC] PHP Fatal error:  Uncaught Error: Class 'SendGrid\Mail\Mail' not found in /home/terumopenpol/public_html/test/includes/functions/sendMail-test.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/terumopenpol/public_html/test/includes/functions/sendMail-test.php on line 23
+[06-Dec-2021 08:41:14 UTC] PHP Warning:  Use of undefined constant DIR_FUNCTIONS - assumed 'DIR_FUNCTIONS' (this will throw an Error in a future version of PHP) in /home/terumopenpol/public_html/test/includes/functions/sent_mail.php on line 4
+[06-Dec-2021 08:41:14 UTC] PHP Warning:  include_once(DIR_FUNCTIONSmail.php): failed to open stream: No such file or directory in /home/terumopenpol/public_html/test/includes/functions/sent_mail.php on line 4
+[06-Dec-2021 08:41:14 UTC] PHP Warning:  include_once(): Failed opening 'DIR_FUNCTIONSmail.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/terumopenpol/public_html/test/includes/functions/sent_mail.php on line 4
+[06-Dec-2021 08:41:14 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function prepare_new_mail() in /home/terumopenpol/public_html/test/includes/functions/sent_mail.php:7
+Stack trace:
+#0 /home/terumopenpol/public_html/test/includes/functions/sent_mail.php(5): sentreq_cancelx()
+#1 {main}
+  thrown in /home/terumopenpol/public_html/test/includes/functions/sent_mail.php on line 7
+[06-Dec-2021 08:41:30 UTC] PHP Warning:  Use of undefined constant DIR_FUNCTIONS - assumed 'DIR_FUNCTIONS' (this will throw an Error in a future version of PHP) in /home/terumopenpol/public_html/test/includes/functions/sent_mail.php on line 4
+[06-Dec-2021 08:41:30 UTC] PHP Warning:  include_once(DIR_FUNCTIONSmail.php): failed to open stream: No such file or directory in /home/terumopenpol/public_html/test/includes/functions/sent_mail.php on line 4
+[06-Dec-2021 08:41:30 UTC] PHP Warning:  include_once(): Failed opening 'DIR_FUNCTIONSmail.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/terumopenpol/public_html/test/includes/functions/sent_mail.php on line 4
+[06-Dec-2021 08:41:30 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function prepare_new_mail() in /home/terumopenpol/public_html/test/includes/functions/sent_mail.php:7
+Stack trace:
+#0 /home/terumopenpol/public_html/test/includes/functions/sent_mail.php(5): sentreq_cancelx()
+#1 {main}
+  thrown in /home/terumopenpol/public_html/test/includes/functions/sent_mail.php on line 7
+[06-Dec-2021 08:42:23 UTC] PHP Warning:  Use of undefined constant DIR_FUNCTIONS - assumed 'DIR_FUNCTIONS' (this will throw an Error in a future version of PHP) in /home/terumopenpol/public_html/test/includes/functions/sent_mail.php on line 4
+[06-Dec-2021 08:42:23 UTC] PHP Warning:  include_once(DIR_FUNCTIONSmail.php): failed to open stream: No such file or directory in /home/terumopenpol/public_html/test/includes/functions/sent_mail.php on line 4
+[06-Dec-2021 08:42:23 UTC] PHP Warning:  include_once(): Failed opening 'DIR_FUNCTIONSmail.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/terumopenpol/public_html/test/includes/functions/sent_mail.php on line 4
+[06-Dec-2021 08:42:23 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function prepare_new_mail() in /home/terumopenpol/public_html/test/includes/functions/sent_mail.php:7
+Stack trace:
+#0 /home/terumopenpol/public_html/test/includes/functions/sent_mail.php(5): sentreq_cancelx()
+#1 {main}
+  thrown in /home/terumopenpol/public_html/test/includes/functions/sent_mail.php on line 7
+[06-Dec-2021 08:42:33 UTC] PHP Warning:  Use of undefined constant DIR_FUNCTIONS - assumed 'DIR_FUNCTIONS' (this will throw an Error in a future version of PHP) in /home/terumopenpol/public_html/test/includes/functions/sent_mail.php on line 4
+[06-Dec-2021 08:42:33 UTC] PHP Warning:  include_once(DIR_FUNCTIONSmail.php): failed to open stream: No such file or directory in /home/terumopenpol/public_html/test/includes/functions/sent_mail.php on line 4
+[06-Dec-2021 08:42:33 UTC] PHP Warning:  include_once(): Failed opening 'DIR_FUNCTIONSmail.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/terumopenpol/public_html/test/includes/functions/sent_mail.php on line 4
+[06-Dec-2021 08:42:33 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function prepare_new_mail() in /home/terumopenpol/public_html/test/includes/functions/sent_mail.php:7
+Stack trace:
+#0 /home/terumopenpol/public_html/test/includes/functions/sent_mail.php(5): sentreq_cancelx()
+#1 {main}
+  thrown in /home/terumopenpol/public_html/test/includes/functions/sent_mail.php on line 7
+[06-Dec-2021 08:57:45 UTC] PHP Warning:  Use of undefined constant DIR_FUNCTIONS - assumed 'DIR_FUNCTIONS' (this will throw an Error in a future version of PHP) in /home/terumopenpol/public_html/test/includes/functions/sent_mail.php on line 4
+[06-Dec-2021 08:57:45 UTC] PHP Warning:  include_once(DIR_FUNCTIONSmail.php): failed to open stream: No such file or directory in /home/terumopenpol/public_html/test/includes/functions/sent_mail.php on line 4
+[06-Dec-2021 08:57:45 UTC] PHP Warning:  include_once(): Failed opening 'DIR_FUNCTIONSmail.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/terumopenpol/public_html/test/includes/functions/sent_mail.php on line 4
+[06-Dec-2021 08:57:45 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function prepare_new_mail() in /home/terumopenpol/public_html/test/includes/functions/sent_mail.php:13
+Stack trace:
+#0 /home/terumopenpol/public_html/test/includes/functions/sent_mail.php(10): sentreq_cancelx()
+#1 {main}
+  thrown in /home/terumopenpol/public_html/test/includes/functions/sent_mail.php on line 13
+[06-Dec-2021 08:59:11 UTC] PHP Warning:  Use of undefined constant DIR_FUNCTIONS - assumed 'DIR_FUNCTIONS' (this will throw an Error in a future version of PHP) in /home/terumopenpol/public_html/test/includes/functions/sent_mail.php on line 4
+[06-Dec-2021 08:59:11 UTC] PHP Warning:  include_once(DIR_FUNCTIONSmail.php): failed to open stream: No such file or directory in /home/terumopenpol/public_html/test/includes/functions/sent_mail.php on line 4
+[06-Dec-2021 08:59:11 UTC] PHP Warning:  include_once(): Failed opening 'DIR_FUNCTIONSmail.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/terumopenpol/public_html/test/includes/functions/sent_mail.php on line 4
+[06-Dec-2021 08:59:11 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function prepare_new_mail() in /home/terumopenpol/public_html/test/includes/functions/sent_mail.php:13
+Stack trace:
+#0 /home/terumopenpol/public_html/test/includes/functions/sent_mail.php(10): sentreq_cancelx()
+#1 {main}
+  thrown in /home/terumopenpol/public_html/test/includes/functions/sent_mail.php on line 13
+[06-Dec-2021 08:59:13 UTC] PHP Warning:  Use of undefined constant DIR_FUNCTIONS - assumed 'DIR_FUNCTIONS' (this will throw an Error in a future version of PHP) in /home/terumopenpol/public_html/test/includes/functions/sent_mail.php on line 4
+[06-Dec-2021 08:59:13 UTC] PHP Warning:  include_once(DIR_FUNCTIONSmail.php): failed to open stream: No such file or directory in /home/terumopenpol/public_html/test/includes/functions/sent_mail.php on line 4
+[06-Dec-2021 08:59:13 UTC] PHP Warning:  include_once(): Failed opening 'DIR_FUNCTIONSmail.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/terumopenpol/public_html/test/includes/functions/sent_mail.php on line 4
+[06-Dec-2021 08:59:13 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function prepare_new_mail() in /home/terumopenpol/public_html/test/includes/functions/sent_mail.php:13
+Stack trace:
+#0 /home/terumopenpol/public_html/test/includes/functions/sent_mail.php(10): sentreq_cancelx()
+#1 {main}
+  thrown in /home/terumopenpol/public_html/test/includes/functions/sent_mail.php on line 13
+[06-Dec-2021 09:00:17 UTC] PHP Warning:  Use of undefined constant DIR_FUNCTIONS - assumed 'DIR_FUNCTIONS' (this will throw an Error in a future version of PHP) in /home/terumopenpol/public_html/test/includes/functions/sent_mail.php on line 4
+[06-Dec-2021 09:00:17 UTC] PHP Warning:  include_once(DIR_FUNCTIONSmail.php): failed to open stream: No such file or directory in /home/terumopenpol/public_html/test/includes/functions/sent_mail.php on line 4
+[06-Dec-2021 09:00:17 UTC] PHP Warning:  include_once(): Failed opening 'DIR_FUNCTIONSmail.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/terumopenpol/public_html/test/includes/functions/sent_mail.php on line 4
+[06-Dec-2021 09:00:17 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function prepare_new_mailTwilio() in /home/terumopenpol/public_html/test/includes/functions/sent_mail.php:13
+Stack trace:
+#0 /home/terumopenpol/public_html/test/includes/functions/sent_mail.php(10): sentreq_cancelx()
+#1 {main}
+  thrown in /home/terumopenpol/public_html/test/includes/functions/sent_mail.php on line 13
+[06-Dec-2021 09:17:34 UTC] PHP Warning:  Use of undefined constant DIR_FUNCTIONS - assumed 'DIR_FUNCTIONS' (this will throw an Error in a future version of PHP) in /home/terumopenpol/public_html/test/includes/functions/sent_mail.php on line 4
+[06-Dec-2021 09:17:34 UTC] PHP Warning:  include_once(DIR_FUNCTIONSmail.php): failed to open stream: No such file or directory in /home/terumopenpol/public_html/test/includes/functions/sent_mail.php on line 4
+[06-Dec-2021 09:17:34 UTC] PHP Warning:  include_once(): Failed opening 'DIR_FUNCTIONSmail.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/terumopenpol/public_html/test/includes/functions/sent_mail.php on line 4
+[06-Dec-2021 09:17:34 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function prepare_new_mailTwilio() in /home/terumopenpol/public_html/test/includes/functions/sent_mail.php:17
+Stack trace:
+#0 /home/terumopenpol/public_html/test/includes/functions/sent_mail.php(14): sentreq_cancelx()
+#1 {main}
+  thrown in /home/terumopenpol/public_html/test/includes/functions/sent_mail.php on line 17
+[06-Dec-2021 09:18:47 UTC] PHP Warning:  Use of undefined constant DIR_FUNCTIONS - assumed 'DIR_FUNCTIONS' (this will throw an Error in a future version of PHP) in /home/terumopenpol/public_html/test/includes/functions/sent_mail.php on line 4
+[06-Dec-2021 09:18:47 UTC] PHP Warning:  include_once(DIR_FUNCTIONSmail.php): failed to open stream: No such file or directory in /home/terumopenpol/public_html/test/includes/functions/sent_mail.php on line 4
+[06-Dec-2021 09:18:47 UTC] PHP Warning:  include_once(): Failed opening 'DIR_FUNCTIONSmail.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/terumopenpol/public_html/test/includes/functions/sent_mail.php on line 4
+[06-Dec-2021 09:18:47 UTC] PHP Warning:  Use of undefined constant SITE_NAME - assumed 'SITE_NAME' (this will throw an Error in a future version of PHP) in /home/terumopenpol/public_html/test/includes/functions/sent_mail.php on line 27
+[06-Dec-2021 09:21:05 UTC] PHP Warning:  Use of undefined constant DIR_FUNCTIONS - assumed 'DIR_FUNCTIONS' (this will throw an Error in a future version of PHP) in /home/terumopenpol/public_html/test/includes/functions/sent_mail.php on line 4
+[06-Dec-2021 09:21:05 UTC] PHP Warning:  include_once(DIR_FUNCTIONSmail.php): failed to open stream: No such file or directory in /home/terumopenpol/public_html/test/includes/functions/sent_mail.php on line 4
+[06-Dec-2021 09:21:05 UTC] PHP Warning:  include_once(): Failed opening 'DIR_FUNCTIONSmail.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/terumopenpol/public_html/test/includes/functions/sent_mail.php on line 4
+[06-Dec-2021 09:21:05 UTC] PHP Warning:  Use of undefined constant SITE_NAME - assumed 'SITE_NAME' (this will throw an Error in a future version of PHP) in /home/terumopenpol/public_html/test/includes/functions/sent_mail.php on line 20
+[06-Dec-2021 11:13:47 UTC] PHP Warning:  Use of undefined constant DIR_FUNCTIONS - assumed 'DIR_FUNCTIONS' (this will throw an Error in a future version of PHP) in /home/terumopenpol/public_html/test/includes/functions/sent_mail.php on line 4
+[06-Dec-2021 11:13:47 UTC] PHP Warning:  include_once(DIR_FUNCTIONSmail.php): failed to open stream: No such file or directory in /home/terumopenpol/public_html/test/includes/functions/sent_mail.php on line 4
+[06-Dec-2021 11:13:47 UTC] PHP Warning:  include_once(): Failed opening 'DIR_FUNCTIONSmail.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/terumopenpol/public_html/test/includes/functions/sent_mail.php on line 4
+[06-Dec-2021 11:13:49 UTC] PHP Warning:  Use of undefined constant DIR_FUNCTIONS - assumed 'DIR_FUNCTIONS' (this will throw an Error in a future version of PHP) in /home/terumopenpol/public_html/test/includes/functions/sent_mail.php on line 4
+[06-Dec-2021 11:13:49 UTC] PHP Warning:  include_once(DIR_FUNCTIONSmail.php): failed to open stream: No such file or directory in /home/terumopenpol/public_html/test/includes/functions/sent_mail.php on line 4
+[06-Dec-2021 11:13:49 UTC] PHP Warning:  include_once(): Failed opening 'DIR_FUNCTIONSmail.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/terumopenpol/public_html/test/includes/functions/sent_mail.php on line 4
+[06-Dec-2021 12:03:06 UTC] PHP Warning:  Use of undefined constant DIR_FUNCTIONS - assumed 'DIR_FUNCTIONS' (this will throw an Error in a future version of PHP) in /home/terumopenpol/public_html/test/includes/functions/sent_mail.php on line 4
+[06-Dec-2021 12:03:06 UTC] PHP Warning:  include_once(DIR_FUNCTIONSmail.php): failed to open stream: No such file or directory in /home/terumopenpol/public_html/test/includes/functions/sent_mail.php on line 4
+[06-Dec-2021 12:03:06 UTC] PHP Warning:  include_once(): Failed opening 'DIR_FUNCTIONSmail.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/terumopenpol/public_html/test/includes/functions/sent_mail.php on line 4
+[06-Dec-2021 12:03:08 UTC] PHP Warning:  Use of undefined constant DIR_FUNCTIONS - assumed 'DIR_FUNCTIONS' (this will throw an Error in a future version of PHP) in /home/terumopenpol/public_html/test/includes/functions/sent_mail.php on line 4
+[06-Dec-2021 12:03:08 UTC] PHP Warning:  include_once(DIR_FUNCTIONSmail.php): failed to open stream: No such file or directory in /home/terumopenpol/public_html/test/includes/functions/sent_mail.php on line 4
+[06-Dec-2021 12:03:08 UTC] PHP Warning:  include_once(): Failed opening 'DIR_FUNCTIONSmail.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/terumopenpol/public_html/test/includes/functions/sent_mail.php on line 4

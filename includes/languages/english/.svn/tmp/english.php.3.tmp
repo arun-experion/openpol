@@ -1,0 +1,55 @@
+<?php
+    define("USER_PASS_NOT_MATCH", "Username and password do not match.");
+	define("USER_NOT_ACTIVE", "User not active");
+	define("EMPTY_QUARTER_NAME", "Quartername required");
+	define("EMPTY_START_DATE", "Start date required");
+	define("EMPTY_END_DATE", "End date required");
+	define("EMPTY_ED_EQP_TAX", "Equipment ED required");
+	define("EMPTY_CST_EQP_TAX", "Equipment CST  required");
+	define("EMPTY_ED_B_TAX", "Blood Bag  ED required");
+	define("EMPTY_CST_B_TAX", "Blood Bag CST required");
+	define("EMPTY_PRODUCT_NAME", "Product name required");
+	define("EMPTY_PRODUCT_CODE", "Product code required");
+	define("EMPTY_WEIGHT", "Weight required");
+	define("EMPTY_CARTON", "Carton required");
+	define("DUPICATE_QUARTER_NAME","Quarter name already exists");
+	define("DUPICATE_QUATER_START_DATE","Quarter in this period already exists");
+	define("DUPICATE_QUATER_END_DATE","Quarter in this period already exists");
+	define("DUPICATE_EMAIL", "Email already used.");
+	define("USERNAME_NOT_AVAILABLE", "Username already exists.");
+	define("EMPTY_FIRSTNAME", "First Name Required.");
+	define("EMPTY_LASTNAME", "Last Name Required.");
+	define("EMPTY_USERNAME", "User Name Required.");
+	define("EMPTY_PASSWORD", "Password Required.");
+	define("EMPTY_EMAIL", "Email ID required.");
+	define("EMPTY_MOBILE", "Mobile Required.");
+	define("EMPTY_PHONE", "Phone required.");
+	define("EMPTY_ADDRESS", "Address required.");
+	define("PASSWORD_NOT_MATCH", "Password do not match.");
+	define("REQUIRED"," *");
+	define("PRICE_LIST_STATUS","Prices indicated are of previous quarter. Modify as per requirement");
+	define("PRICE_LIST_STATUS_SUCCESS","Price list updated successfully");
+	define("REQUIRED_FIELD_MISSING","All fields are required");
+	define("EMPTY_ZONENAME","Zone Name required");
+	define("EMPTY_AREA","Area Name required");
+	define("EMPTY_ZONE","Zone required");
+	define("AREA_ADDED","Area added successfuly.");
+	define("AREA_UPDATED", "Area updated successfuly.");
+	define("ZONE_ADDED","Zone added successfuly.");
+	define("ZONE_UPDATED", "Zone updated successfuly.");
+	define("EMPTY_PERMISSIONS", "Permission name required.");
+	define("ADDED_PERMISSIONS", "Permission added successfuly.");
+	define("UPDATED_PERMISSIONS", "Permission updated successfuly.");
+	define("EMPTY_ROLENAME", "Role name required.");
+	define("ADDED_ROLES", "Role added successfuly.");
+	define("UPDATED_ROLES", "Role updated successfuly.");
+	define("PERMISSIONS_ASSIGNED", "permissions assigned to role successfuly.");
+	define("USER_ADDED", "User added successfuly.");
+	define("USER_UPDATED", "User updated successfuly.");
+	define("PRODUCT_ADDED", "Product added successfuly.");
+	define("PRODUCT_UPDATED", "Product updated successfuly.");	
+	define("EMAIL_NOTVALID", "Please provide a valid email.");	
+	define("EMAIL_NOTFOUND", "Sorry, email not found in our database.");	
+	
+	
+?>

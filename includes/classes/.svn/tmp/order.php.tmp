@@ -1,0 +1,194 @@
+<?php
+/**
+ * TPL :: Order Processing System
+ *
+ * @copyright		Copyright (c) Terumo Penpol. All rights reserved.
+ * @category 		Order Processing
+ * @identity		Terumo Penpol is India's largest manufacturer of Blood Bags. This web portal would help order management. 
+ * @author			Syamnath
+ * @version			$Id: order.php  Wednessday, June 16, 2010, 03:18:41 PM $
+ *		
+ */
+ 
+class Order
+{
+	function getOrderDetails($oid) { 
+	$q= Query("SELECT o.id, o.order_no, o.dl_20b, o.dl_21b, o.cst, o.tin, o.bbl, o.tax_status, o.tax_type, o.customer_id,  DATE_FORMAT(o.prefered_date , ".SHORT_DATE_WITHTIME." ) as prefered_date, o.payment_terms, o.payment_type, o.payment_no, DATE_FORMAT(o.payment_date , ".SHORT_DATE_WITHTIME." ) as payment_date, o.payment_amount, o.instructions, o.order_status, o.invoice_no, DATE_FORMAT(o.delivered_date , ".SHORT_DATE_WITHTIME." ) as delivered_date, o.carrer_information, o.transportation_mode, DATE_FORMAT(o.received_date , ".SHORT_DATE_WITHTIME." ) as received_date,o.created_by, DATE_FORMAT(o.created_date , ".SHORT_DATE_WITHTIME." ) as created_date, o.tax_rate, o.request_to_cancel, o.reason_cancel, c.address, c.name FROM `[x]order` o, `[x]customer` c WHERE o.id='{$oid}' and o.customer_id=c.id");	 
+	
+	
+		 if(Num($q))
+		 {
+		  $r = FetchAssoc($q);	 	 
+		  return $r;
+		 }
+	}
+	
+	function getorderproducts($oid) { 
+		$order= Query("SELECT po.carton_no, po.quantity, po.rate, po.value, p.name as productname, p.code from `[x]product_order` po, `[x]product` p where po.order_id={$oid} and po.product_id=p.id");
+		$i=1;
+		$total=0;
+		 if(Num($order))
+		 {
+		  	while($r = FetchAssoc($order)) {
+				$r['slno'] = $i;
+				if($i%2 ==0) {
+					$r['class'] = 'one';
+				}else { 
+					$r['class'] = 'two';
+				}
+				$total +=$r['value'];
+				$result[] =$r;
+				$i++;
+			}	
+			$result['total'] = $total;	 
+		  return $result;
+		 }
+	}
+	
+<<<<<<< .mine
+	function getcurrentorderstatus($oid) { 
+ 		$orderstatus= Query("SELECT current_status FROM `[x]order_status` where order_id={$oid} order by id desc limit 0,1");
+=======
+	
+	
+   function generateOrderNo($order_id){
+   
+		$today = date('dmY');
+		if ($order_id < 10){                // If the value is under 10 then 2 zeros are needed to make a 3 digit value.
+		$order_no = "000" . $order_id;
+		}
+		else if ($order_id < 100){      // If the value is under 100 then 1 zero is needed to make a 3 digit value.
+		$order_no = "00" . $order_id;
+		}
+		else if ($order_id < 1000){  
+		$order_no = "0" . $order_id;
+		}
+		else{                               // If the value is not less the 10 or 100 then is is already a 3 digit value.
+		$order_no = $order_id;
+		}
+		return $today.$order_no;
+	}
+	
+	
+	
+		 
+	
+	function getcurrentorderstatus() { 
+		$orderstatus= Query("SELECT current_status FROM `[x]order_status` order by id desc limit 0,1");
+>>>>>>> .r322
+		if(Num($orderstatus)) {
+		  	$r = FetchAssoc($orderstatus);
+  		  	return $r['current_status'];
+		 }
+	}
+	
+	function getallstatus($oid) { 
+	
+		$extra = '';
+		if($_SESSION['rid'] == 2) {
+			$extra = ' and s.ba_visibility = 1';
+		}
+	 
+		
+ 		$orderstatus= Query("SELECT o.comment, o.updated_by, o.current_status, DATE_FORMAT(o.updated_date , ".SHORT_DATE_WITHTIME." ) as updated_date, u.first_name, u.last_name, s.ba_visibility FROM `[x]order_status` o, `[x]user` u, `[x]status` s where order_id={$oid} and u.id=o.updated_by and s.id = o.current_status" . $extra);
+ 	/*	$orderstatus= Query("SELECT o.comment, o.updated_by, o.current_status, DATE_FORMAT(o.updated_date , ".SHORT_DATE." ) as updated_date, u.first_name, u.last_name FROM `[x]order_status` o, `[x]user` u where order_id={$oid} and u.id=o.updated_by");*/
+		$i=0;
+		if(Num($orderstatus)) {
+		  	while($r = FetchAssoc($orderstatus)) {
+				$r['slno'] = $i;
+				if($i%2 ==0) {
+					$r['class'] = 'one';
+				}else { 
+					$r['class'] = 'two';
+				}
+				$orderremarks = $this->getstatusname($r['current_status']);
+				$r['status'] = $orderremarks['status'];
+				$r['action'] = $orderremarks['action'];
+ 				$r['doneby'] = $this->getdoenby($r['updated_by']);
+ 				$result[] =$r;
+				$i++;
+			}	
+ 	 	 	return $result;
+		}
+	}
+	
+	function getstatusname($sid) {
+		
+			$orderstatus= Query("SELECT * FROM `[x]status` where id={$sid}");
+			if(Num($orderstatus)) {
+				$r = FetchAssoc($orderstatus);
+				return $r;
+			 }	
+	}
+	
+	function getworkflows() {
+		$workflowquery = Query("SELECT * FROM workflow");
+			if(Num($workflowquery)) {
+			$i=0;
+				while($workflowresult = FetchAssoc($workflowquery)) {
+					if($i%2 ==0) {
+						$workflowresult['class'] = "two";
+					}else {
+						$workflowresult['class'] = "one";
+					}		
+					$workflowresult['role'] =$this->getrolename($workflowresult['user_role']);
+					$getstatus =$this->getstatusname($workflowresult['status']);
+					$workflowresult['statusname'] = $getstatus['status'];
+					$getnextstatus =$this->getstatusname($workflowresult['next']);
+					$workflowresult['nextstatus'] = $getnextstatus['status'];
+					$workflows[] = $workflowresult;
+					$i++;
+				}
+				
+				return $workflows;
+			}
+	}
+	
+	function getrolename($rid) {	
+	$query= Query("SELECT roleName FROM `[x]roles` WHERE ID='{$rid}'");		
+		 if(Num($query))
+		 {
+		  $result = FetchAssoc($query);		 	 
+		  return $result['roleName'];
+		 }
+	}
+	
+	function getdoenby($utid) {
+ 	$q= Query("SELECT r.roleName FROM `roles` r, `user_roles` ur WHERE ur.userID ={$utid} AND r.ID = ur.roleId");	 
+ 
+		 if(Num($q))
+		 {
+			 while($r = FetchAssoc($q)){
+				$utype  = $r;
+				}
+			  return $utype['roleName'];
+		 }
+	}
+	
+	function getordermadeby($oid,$format) {
+		$result= FetchAssoc(Query("SELECT u.first_name,u.id FROM `user` u, `order` o WHERE o.id ={$oid} AND u.id = o.created_by"));	 	
+		$id=$result['id'];
+ 		$role_result= FetchAssoc(Query("SELECT r.roleName FROM `roles` r, `user_roles` ur WHERE ur.userID ={$id} AND r.ID = ur.roleId"));	 
+		if($format == 'name_role') {
+ 	 		 return $result['first_name'].' ('.$role_result['roleName'].') ';		
+		}else{
+			 return $result['first_name'];
+		}  
+	}
+	
+	 function generateOrderNo($length = 4){
+  
+		  $chars = "123456789";    
+		  srand((double)microtime()*1000000);    
+		  $i = 0;    $pass = '' ;    
+		  while ($i <= $length) {        
+		   $num = rand() % 33;        
+		   $tmp = substr($chars, $num, 1);        
+		   $pass = $pass . $tmp;        $i++;    
+		  }    
+		  return $pass; 
+	 }
+	 
+}
+
+?>

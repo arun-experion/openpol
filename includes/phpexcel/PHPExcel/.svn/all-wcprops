@@ -1,0 +1,107 @@
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/penpol/!svn/ver/803/trunk/source/penpol/includes/phpexcel/PHPExcel
+END
+RichText.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/penpol/!svn/ver/803/trunk/source/penpol/includes/phpexcel/PHPExcel/RichText.php
+END
+HashTable.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/penpol/!svn/ver/803/trunk/source/penpol/includes/phpexcel/PHPExcel/HashTable.php
+END
+DocumentProperties.php
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/penpol/!svn/ver/803/trunk/source/penpol/includes/phpexcel/PHPExcel/DocumentProperties.php
+END
+ReferenceHelper.php
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/penpol/!svn/ver/803/trunk/source/penpol/includes/phpexcel/PHPExcel/ReferenceHelper.php
+END
+Calculation.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/penpol/!svn/ver/803/trunk/source/penpol/includes/phpexcel/PHPExcel/Calculation.php
+END
+IOFactory.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/penpol/!svn/ver/803/trunk/source/penpol/includes/phpexcel/PHPExcel/IOFactory.php
+END
+Autoloader.php
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/penpol/!svn/ver/803/trunk/source/penpol/includes/phpexcel/PHPExcel/Autoloader.php
+END
+Settings.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/penpol/!svn/ver/803/trunk/source/penpol/includes/phpexcel/PHPExcel/Settings.php
+END
+Style.php
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/penpol/!svn/ver/803/trunk/source/penpol/includes/phpexcel/PHPExcel/Style.php
+END
+NamedRange.php
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/penpol/!svn/ver/803/trunk/source/penpol/includes/phpexcel/PHPExcel/NamedRange.php
+END
+Comment.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/penpol/!svn/ver/803/trunk/source/penpol/includes/phpexcel/PHPExcel/Comment.php
+END
+DocumentSecurity.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/penpol/!svn/ver/803/trunk/source/penpol/includes/phpexcel/PHPExcel/DocumentSecurity.php
+END
+Worksheet.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/penpol/!svn/ver/803/trunk/source/penpol/includes/phpexcel/PHPExcel/Worksheet.php
+END
+CachedObjectStorageFactory.php
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/penpol/!svn/ver/803/trunk/source/penpol/includes/phpexcel/PHPExcel/CachedObjectStorageFactory.php
+END
+IComparable.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/penpol/!svn/ver/803/trunk/source/penpol/includes/phpexcel/PHPExcel/IComparable.php
+END
+Cell.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/penpol/!svn/ver/803/trunk/source/penpol/includes/phpexcel/PHPExcel/Cell.php
+END
+WorksheetIterator.php
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/penpol/!svn/ver/803/trunk/source/penpol/includes/phpexcel/PHPExcel/WorksheetIterator.php
+END

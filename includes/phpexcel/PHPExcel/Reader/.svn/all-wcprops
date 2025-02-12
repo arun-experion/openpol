@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/penpol/!svn/ver/803/trunk/source/penpol/includes/phpexcel/PHPExcel/Reader
+END
+Excel2007.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/penpol/!svn/ver/803/trunk/source/penpol/includes/phpexcel/PHPExcel/Reader/Excel2007.php
+END
+IReadFilter.php
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/penpol/!svn/ver/803/trunk/source/penpol/includes/phpexcel/PHPExcel/Reader/IReadFilter.php
+END
+CSV.php
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/penpol/!svn/ver/803/trunk/source/penpol/includes/phpexcel/PHPExcel/Reader/CSV.php
+END
+IReader.php
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/penpol/!svn/ver/803/trunk/source/penpol/includes/phpexcel/PHPExcel/Reader/IReader.php
+END
+Serialized.php
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/penpol/!svn/ver/803/trunk/source/penpol/includes/phpexcel/PHPExcel/Reader/Serialized.php
+END
+OOCalc.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/penpol/!svn/ver/803/trunk/source/penpol/includes/phpexcel/PHPExcel/Reader/OOCalc.php
+END
+SYLK.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/penpol/!svn/ver/803/trunk/source/penpol/includes/phpexcel/PHPExcel/Reader/SYLK.php
+END
+Excel5.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/penpol/!svn/ver/803/trunk/source/penpol/includes/phpexcel/PHPExcel/Reader/Excel5.php
+END
+DefaultReadFilter.php
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/penpol/!svn/ver/803/trunk/source/penpol/includes/phpexcel/PHPExcel/Reader/DefaultReadFilter.php
+END
+Excel2003XML.php
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/penpol/!svn/ver/803/trunk/source/penpol/includes/phpexcel/PHPExcel/Reader/Excel2003XML.php
+END

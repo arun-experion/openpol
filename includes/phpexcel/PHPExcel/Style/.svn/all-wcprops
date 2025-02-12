@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/penpol/!svn/ver/803/trunk/source/penpol/includes/phpexcel/PHPExcel/Style
+END
+Border.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/penpol/!svn/ver/803/trunk/source/penpol/includes/phpexcel/PHPExcel/Style/Border.php
+END
+Alignment.php
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/penpol/!svn/ver/803/trunk/source/penpol/includes/phpexcel/PHPExcel/Style/Alignment.php
+END
+Color.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/penpol/!svn/ver/803/trunk/source/penpol/includes/phpexcel/PHPExcel/Style/Color.php
+END
+Borders.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/penpol/!svn/ver/803/trunk/source/penpol/includes/phpexcel/PHPExcel/Style/Borders.php
+END
+NumberFormat.php
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/penpol/!svn/ver/803/trunk/source/penpol/includes/phpexcel/PHPExcel/Style/NumberFormat.php
+END
+Conditional.php
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/penpol/!svn/ver/803/trunk/source/penpol/includes/phpexcel/PHPExcel/Style/Conditional.php
+END
+Fill.php
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/penpol/!svn/ver/803/trunk/source/penpol/includes/phpexcel/PHPExcel/Style/Fill.php
+END
+Font.php
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/penpol/!svn/ver/803/trunk/source/penpol/includes/phpexcel/PHPExcel/Style/Font.php
+END
+Protection.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/penpol/!svn/ver/803/trunk/source/penpol/includes/phpexcel/PHPExcel/Style/Protection.php
+END

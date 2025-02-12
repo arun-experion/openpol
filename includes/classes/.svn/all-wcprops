@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/penpol/!svn/ver/906/trunk/source/penpol/includes/classes
+END
+workflow.php
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/penpol/!svn/ver/742/trunk/source/penpol/includes/classes/workflow.php
+END
+template.php
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/penpol/!svn/ver/742/trunk/source/penpol/includes/classes/template.php
+END
+order.php
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/penpol/!svn/ver/905/trunk/source/penpol/includes/classes/order.php
+END
+splitresults.php
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/penpol/!svn/ver/160/trunk/source/penpol/includes/classes/splitresults.php
+END
+acl.php
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/penpol/!svn/ver/323/trunk/source/penpol/includes/classes/acl.php
+END
+navigation.php
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/penpol/!svn/ver/257/trunk/source/penpol/includes/classes/navigation.php
+END
+fpdf.php
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/penpol/!svn/ver/688/trunk/source/penpol/includes/classes/fpdf.php
+END
+mail.php
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/penpol/!svn/ver/221/trunk/source/penpol/includes/classes/mail.php
+END
+quarter.php
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/penpol/!svn/ver/825/trunk/source/penpol/includes/classes/quarter.php
+END
+search.php
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/penpol/!svn/ver/250/trunk/source/penpol/includes/classes/search.php
+END
+class.phpmailer.php
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/penpol/!svn/ver/487/trunk/source/penpol/includes/classes/class.phpmailer.php
+END
+complaint.php
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/penpol/!svn/ver/878/trunk/source/penpol/includes/classes/complaint.php
+END
+class.smtp.php
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/penpol/!svn/ver/487/trunk/source/penpol/includes/classes/class.smtp.php
+END

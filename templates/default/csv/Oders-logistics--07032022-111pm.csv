@@ -1,0 +1,20 @@
+SLNO, ORDER NO, ORDER DATE, CUSTOMER ERP NUMBER, ORDER PLACED BY, PRODUCT CODE, QTY,RATE, REQUESTED DELIVERY DATE,PAYMENT TERMS,ORDER CREDIT,END CUSTOMER NAME,OTHER INSTRUCTIONS,BUSINESS UNIT,CHEQUE NO,CHEQUE AMOUNT,CHEQUE DATE 
+1,0403202230067,04-03-2022,c-0013,jithin,PB-1PD156J8S,800,100,15-03-2022,0,Test Test,cmr trust,"deliver to the below address
+
+ kannur, kerala",Blood Bag,0,0,00-00-0000
+2,0403202230067,04-03-2022,c-0013,jithin,PB-2CD356J1B,960,50,15-03-2022,0,Test Test,cmr trust,"deliver to the below address
+
+ kannur, kerala",Blood Bag,0,0,00-00-0000
+3,0403202230067,04-03-2022,c-0013,jithin,PB-4AO356J9A,700,500,15-03-2022,0,Test Test,cmr trust,"deliver to the below address
+
+ kannur, kerala",Blood Bag,0,0,00-00-0000
+4,0403202230066,04-03-2022,c-0013,jithin,BBR165G,10,10000,21-04-2022,0,AreamanagerXX Test,ABC corporations,0,Blood Bank Equipment,0,0,00-00-0000
+5,0403202230066,04-03-2022,c-0013,jithin,BBR600G,1,50000,21-04-2022,0,AreamanagerXX Test,ABC corporations,0,Blood Bank Equipment,0,0,00-00-0000
+6,0403202230065,04-03-2022,c-0013,jithin,ME TACE 2+,1,150000,16-03-2022,Rest on30  days from delivery,Test Test,tc,delivery on mar 16,TC Equipments,12345,10000,17-03-2022
+7,0403202230065,04-03-2022,c-0013,jithin,ME*TACEIRF,1,50000,16-03-2022,Rest on30  days from delivery,Test Test,tc,delivery on mar 16,TC Equipments,12345,10000,17-03-2022
+8,0403202230065,04-03-2022,c-0013,jithin,71002,10,20000,16-03-2022,Rest on30  days from delivery,Test Test,tc,delivery on mar 16,TC Equipments,12345,10000,17-03-2022
+9,0303202230061,03-03-2022,c-0013,jithin,51422,5,1000,09-03-2022,0,Test Test,testtt,payyy,TC Disposables,0,0,00-00-0000
+10,0303202230061,03-03-2022,c-0013,jithin,TF*IR1602ES,100,500,09-03-2022,0,Test Test,testtt,payyy,TC Disposables,0,0,00-00-0000
+11,0303202230061,03-03-2022,c-0013,jithin,SC*W017,280,300,09-03-2022,0,Test Test,testtt,payyy,TC Disposables,0,0,00-00-0000
+12,0303202230060,03-03-2022,c-0013,jithin,71002,10,500,31-03-2022,30  days,Test Test,mmmm,nmad sm,TC Equipments,0,0,00-00-0000
+13,0303202230059,03-03-2022,c-0013,jithin,BBR165G,10,1000,17-03-2022,30 dyas,Test Test,test,mfrak,Blood Bank Equipment,111,10000,03-03-2022

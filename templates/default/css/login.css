@@ -1,0 +1,159 @@
+body {
+	background-image: url(../images/background.jpg);
+	background-repeat: repeat-x;
+	background-color: #1889d7;
+}
+.logincentral {
+	background-image: url(../images/loginmiddle.jpg);
+	background-repeat: no-repeat;
+	height: 184px;
+	width: 801px;
+}
+.login {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #565656;
+}
+.loginboot {
+	background-image: url(../images/loginbot.jpg);
+	background-repeat: no-repeat;
+	height: 52px;
+	width: 801px;
+}
+.loginnext {
+	background-image: url(../images/loginnext.jpg);
+	background-repeat: no-repeat;
+	height: 34px;
+	width: 801px;
+}
+.poweredby {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: normal;
+	color: #457089;
+}
+.copyright {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	color: #457089;
+	text-decoration:none
+}
+.loginboxholder {
+	display: block;
+	height: 112px;
+	width: 236px;
+	background-image: url(../images/logintextboxholder.jpg);
+	background-repeat: no-repeat;
+	margin: 0px;
+	padding: 0px;
+}
+.loginhandler {
+	display: block;
+	width: 236px;
+	margin-left: 20px;
+	padding: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	float: left;
+}
+.loginwidth {
+	width: 10px;
+}
+.formbutton {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #FFFFFF;
+	background-image: url(../images/buttonbg.jpg);
+	background-repeat: repeat-x;
+	height: 24px;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-left-style: solid;
+	border-top-color: #1264B8;
+	border-right-color: #1264B8;
+	border-left-color: #1264B8;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #1264B8;
+	cursor:pointer;
+}
+.logintextfileds {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	color: #7395AC;
+	border: 1px solid #C8D0DB;
+	height: 20px;
+	width: 128px;
+	line-height: 18px;
+}
+.forgotpassword a{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #5d5d5d;
+	display: block;
+	float: left;
+ 	text-decoration: none;
+	outline:none;
+ }
+.forgotpassword a:hover{
+	text-decoration: underline;
+}
+.error {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: normal;
+	color: #B70000;
+	display: block;
+	margin-left: 10px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+.greytext {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #7395AC;
+	width: 100px;
+}
+.smalltext {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	color: #FF0000;
+}
+.successmessage {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+ 	color:#009933;
+  	text-align:left;
+}
+.smallgreytext {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+ 	color: #7395AC;
+  	text-align:left;
+	padding-left:5px;
+}
+.forgotpasswordtext{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	color: #7395AC;
+	/*width: 100px;*/
+	padding-left:5px;
+	padding-bottom:5px;
+	padding-top:5px;
+}

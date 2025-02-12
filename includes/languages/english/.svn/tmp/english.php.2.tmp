@@ -1,0 +1,35 @@
+<?php
+    define("USER_PASS_NOT_MATCH", "Username and password do not match.");
+	define("USER_NOT_ACTIVE", "User not active");
+	define("EMPTY_QUARTER_NAME", "Quartername required");
+	define("EMPTY_START_DATE", "Start date required");
+	define("EMPTY_END_DATE", "End date required");
+	define("EMPTY_ED_EQP_TAX", "Equipment ED required");
+	define("EMPTY_CST_EQP_TAX", "Equipment CST date required");
+	define("EMPTY_ED_B_TAX", "Blood Bag  ED required");
+	define("EMPTY_CST_B_TAX", "Blood Bag CST required");
+	define("EMPTY_PRODUCT_NAME", "Product name required");
+	define("EMPTY_PRODUCT_CODE", "Product code required");
+	define("EMPTY_WEIGHT", "Weight required");
+	define("EMPTY_CARTON", "Carton required");
+<<<<<<< .mine
+	define("DUPICATE_EMAIL", "Email already used.");
+	define("USERNAME_NOT_AVAILABLE", "Username not available.");
+	define("EMPTY_FIRSTNAME", "First Name Required.");
+	define("EMPTY_LASTNAME", "Last Name Required.");
+	define("EMPTY_USERNAME", "User Name Required.");
+	define("EMPTY_PASSWORD", "Password Required.");
+	define("EMPTY_EMAIL", "Email required.");
+	define("EMPTY_MOBILE", "Mobile Required.");
+	define("EMPTY_PHONE", "Phone required.");
+	define("EMPTY_ADDRESS", "Address required.");
+	define("PASSWORD_NOT_MATCH", "Password do not match.");
+	
+	
+	
+=======
+	define("DUPICATE_QUARTER_NAME","Quarter name already exists");
+	define("DUPICATE_QUATER_START_DATE","Duplicate");
+	define("DUPICATE_QUATER_END_DATE","Duplicate");
+>>>>>>> .r105
+?>
