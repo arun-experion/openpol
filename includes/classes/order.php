@@ -234,7 +234,7 @@ class Order
 		 if($_SESSION['utype'] == 'ZH'){
 			$extra =" AND u.zone_id = {$_SESSION['zoneid']}";		
  		}
-		if($zone_id > 0){
+		 if (isset($zone_id) && is_numeric($zone_id) && $zone_id > 0) {
 			$extra =" AND u.zone_id = {$zone_id}";
 		}
 		if($product_type_id>0){
@@ -251,7 +251,7 @@ class Order
 		
  $query = "Select Distinct o.id, u.zone_id  From (Select order_id,MAX(current_status) as status from order_status group by order_id) os INNER JOIN `order` o ON o.id = os.order_id INNER JOIN `product_order` po ON po.order_id = o.id  INNER JOIN product p ON p.id = po.product_id  INNER JOIN product_type pt ON pt.id = p.product_type_id  INNER JOIN `user` u ON u.id=o.created_by and DATE_FORMAT(o.created_date, '%Y-%m-%d') >=  '".$from."' AND DATE_FORMAT(o.created_date, '%Y-%m-%d') <=  '".$to."' ".$extracondition." where o.status = 1 ORDER BY o.id desc";
 
-	
+
 		$q = Query($query);
                 if(!empty($q))
                 {

@@ -6,7 +6,7 @@
 		var $userID = 0;			//Integer : Stores the ID of the current user
 		var $userRoles = array();	//Array : Stores the roles of the current user
 		
-		function __constructor($userID = '')
+		function __construct($userID = '')
 		{
 			if ($userID != '')
 			{
@@ -22,7 +22,7 @@
 		
 		function ACL($userID = '')
 		{
-			$this->__constructor($userID);
+			$this->__construct($userID);
 			//crutch for PHP4 setups
 		}
 		

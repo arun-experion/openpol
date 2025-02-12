@@ -58,7 +58,7 @@ class template {
 				}
 			}
 			
-			$this->Buffer = str_replace($tag[0], $ret, $this->Buffer);
+			$this->Buffer = strtr($this->Buffer, [$tag[0] => $ret]);
 			return true;
 		}
 	}
@@ -87,7 +87,7 @@ class template {
 			foreach ($zn as $key => $znArray) {
 				if (is_array($znArray)) {
 					if ($znArray[1] != $zone) {
-						$this->Buffer = str_replace($znArray[0], NULL, $this->Buffer);
+						$this->Buffer = strtr($this->Buffer, [$znArray[0] =>Null]);
 					} else {
 						if ($retmode) return $znArray[2];
 						else $this->Buffer = str_replace($znArray[0], $znArray[2], $this->Buffer);
@@ -120,7 +120,7 @@ class template {
 		if (isset($zn) && is_array($zn)) {
 			foreach ($zn as $key => $znArray) {
 				if (is_array($znArray)) {
-					$this->Buffer = str_replace($znArray[0], NULL, $this->Buffer);
+					$this->Buffer = strtr($this->Buffer, [$znArray[0] =>Null]);
 				}
 			}
 		}
@@ -134,7 +134,7 @@ class template {
 		if (isset($zn) && is_array($zn)) {
 			foreach ($zn as $key => $znArray) {
 				if (is_array($znArray)) {
-					$this->Buffer = str_replace($znArray[0], NULL, $this->Buffer);
+						$this->Buffer = strtr($this->Buffer, [$znArray[0] =>Null]);
 				}
 			}
 		}

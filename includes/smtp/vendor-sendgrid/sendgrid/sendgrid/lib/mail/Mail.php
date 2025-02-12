@@ -1951,7 +1951,7 @@ class Mail implements \JsonSerializable
      * @return null|array
      * @throws TypeException
      */
-    public function jsonSerialize()
+    public function jsonSerialize(): mixed
     {
         // Detect if we are using the new dynamic templates
         if ($this->getTemplateId() !== null && strpos($this->getTemplateId()->getTemplateId(), 'd-') === 0) {
