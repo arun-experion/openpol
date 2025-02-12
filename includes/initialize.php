@@ -1,5 +1,7 @@
 <?php
-
+	ini_set('open_basedir', Null);	
+	ini_set("session.save_path", __DIR__."/temp");
+	
 	session_start();
 
 	//INCLUDE CONFIG FILE ///////////////////////////////////////
@@ -57,7 +59,5 @@
 	 // enable reminder mail to status
 	 $status_mail = array(1,2,3,4,5,6,7,8);
 	 
-	 ini_set('open_basedir', Null);	
-	 ini_set("session.save_path", "/webspace/hc8resadmin/terumopenpolcom/terumopenpol.com/www/tmp");
  		  
 ?>
