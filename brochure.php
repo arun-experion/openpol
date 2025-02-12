@@ -35,10 +35,10 @@
 		}
 			
 	   if($_FILES['uploadfile']['name'] != '' ){	
-		$file_parts = explode(".", $_FILES['uploadfile']['name']);   
-		$file_extension = end($file_parts);
-				   $extensions_allowed =ALLOWABLE_DOC_EXT ;
-		  
+			$file_parts = explode(".", $_FILES['uploadfile']['name']);   
+			$file_extension = end($file_parts);
+			$extensions_allowed =ALLOWABLE_DOC_EXT ;
+			
 		   if ((strpos($extensions_allowed, $file_extension)) === false) {
 				$error['error.file_extension']='<li>'.INVALID_EXTENSION.'</li>'; 
 			}

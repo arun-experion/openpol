@@ -58,7 +58,7 @@ class template {
 				}
 			}
 			
-			$this->Buffer = str_replace($tag[0], $ret, $this->Buffer);
+			$this->Buffer = strtr($this->Buffer, [$tag[0] => $ret]);
 			return true;
 		}
 	}
@@ -134,9 +134,8 @@ class template {
 		if (isset($zn) && is_array($zn)) {
 			foreach ($zn as $key => $znArray) {
 				if (is_array($znArray)) {
-					
-					$this->Buffer = strtr($this->Buffer, [$znArray[0] =>Null]);
-								}
+						$this->Buffer = strtr($this->Buffer, [$znArray[0] =>Null]);
+				}
 			}
 		}
 	}

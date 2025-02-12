@@ -253,7 +253,6 @@ class Order
 
 
 		$q = Query($query);
-		var_dump($q);
                 if(!empty($q))
                 {
                     $values['number'] = Num($q);
