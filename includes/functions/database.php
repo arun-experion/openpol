@@ -1,7 +1,6 @@
 <?php
 
 	function Connect() { 
-	
 		$GLOBALS["DB_CONNECTION"] = mysqli_connect(DB_SERVER, DB_USERNAME, DB_PASSWORD, DB_DATABASE);
 		if (mysqli_connect_errno()) die(mysqli_connect_error());
 	}
@@ -25,7 +24,11 @@
 	
 	function Num($content) {
 		if (!isset($GLOBALS["DB_CONNECTION"]) or !$GLOBALS["DB_CONNECTION"]) Connect();
-		return mysqli_num_rows($content);
+		if($content)
+		{
+			return mysqli_num_rows($content);
+		}
+		return false;
 	}
 	
 	function Insert($table, $data) {
