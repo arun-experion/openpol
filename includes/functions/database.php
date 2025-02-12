@@ -25,6 +25,9 @@
 	
 	function Num($content) {
 		if (!isset($GLOBALS["DB_CONNECTION"]) or !$GLOBALS["DB_CONNECTION"]) Connect();
+		if (!$content || !($content instanceof mysqli_result)) {
+			return 0; 
+		}
 		return mysqli_num_rows($content);
 	}
 	

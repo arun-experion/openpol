@@ -299,7 +299,7 @@ class Personalization implements \JsonSerializable
      *
      * @return null|array
      */
-    public function jsonSerialize()
+    public function jsonSerialize(): mixed
     {
         if ($this->getHasDynamicTemplate()) {
             $dynamic_substitutions = $this->getSubstitutions();
