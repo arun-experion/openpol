@@ -15,8 +15,9 @@
     $download_file = BROCHURE_UPLOAD_PATH.$_GET['download_file'];
 	$file_name = $_GET['download_file'];
  	
-	$file_extension= end(explode(".", $file_name));
-	  $file_extension=strtolower(file_extension);
+		$file_parts = explode(".", $file_name);
+		$file_extension = end($file_parts);
+		$file_extension=strtolower($file_extension);
 	
 		 header("Cache-Control: public");
 		 header('Cache-control: private');

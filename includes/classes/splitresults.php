@@ -9,7 +9,7 @@ class splitResults {
 	var $start;
 	var $end;
 	var $total;
-	function splitResults($query, $results_per_page = SEARCH_RESULTS_PER_PAGE) {
+	function __construct($query, $results_per_page = SEARCH_RESULTS_PER_PAGE) {
 		global $GET;
 		$GET = $_GET;
 		
@@ -21,8 +21,9 @@ class splitResults {
 			
 		// Current page
 		$start = (($this->page * $results_per_page) - $results_per_page);
-		
-		$total = Num(Query($query));
+		$result = Query($query);
+
+		$total = Num($result);
 		$this->pages = ceil($total / $results_per_page);
 		//return $total;
 		
@@ -47,6 +48,11 @@ class splitResults {
 		$this->out = Query($query . " LIMIT $start, " . $results_per_page);
 		
 	}
+	
+	function splitResults($query) {
+        return new self($query);
+    }
+	
 	function show() {
 	
 		global $GET;
