@@ -1,8 +1,7 @@
 <?php 
 	include("includes/initialize.php");
 	include(DIR_FUNCTIONS . "formvalidation.php");
-	// $uploaddir = QC_REPORT_UPLOAD_PATH; 
-	$uploaddir = "/var/www/html/uploads/"; 
+	$uploaddir = QC_REPORT_UPLOAD_PATH; 
 	if (!is_dir($uploaddir)) {
 	    mkdir($uploaddir, 0755, true);
 	}
