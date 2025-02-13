@@ -54,6 +54,9 @@
 				$from_email = $userdata['email'];
 				$mail = prepare_new_mail($from_name,$from_email);
 				$emailids = getEmailGroup($group_id);
+				if (!is_array(reset($emailids))) { 
+					$emailids = [$emailids];
+				}
 				$groupname = getGroupName($group_id);
 				$mail_subject = SITE_NAME." ".CONTACT_MAIL_SUBJECT. "-".$_POST['subject'];
 				$flag = 1;
