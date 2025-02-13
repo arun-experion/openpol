@@ -2,9 +2,6 @@
 	include("includes/initialize.php");
 	include(DIR_FUNCTIONS . "formvalidation.php");
 	$uploaddir = QC_REPORT_UPLOAD_PATH; 
-	if (!is_dir($uploaddir)) {
-	    mkdir($uploaddir, 0755, true);
-	}
 	$file = $uploaddir . basename($_FILES['userfile']['name']); 
 	$size=$_FILES['userfile']['size'];
 	$order_id=$_REQUEST['id'];
