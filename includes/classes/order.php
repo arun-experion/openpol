@@ -119,7 +119,7 @@ class Order
 		  	 $r = FetchAssoc($orderstatus);	
 			 if($r['ba_visibility'] == 0 && $_SESSION['utype'] == 'BA'){
  			 	$bastatus= FetchAssoc(Query("SELECT os.current_status,s.ba_visibility FROM `[x]order_status` os, `[x]status` s  where os.order_id={$oid} and os.current_status=s.id and s.ba_visibility=1 order by os.id desc limit 0,1"));
-				 return $bastatus['current_status'];;
+				 return $bastatus['current_status'];
 			 }else{
    		  		return $r['current_status'];
 			}
