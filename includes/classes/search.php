@@ -6,8 +6,8 @@ class search {
 	var $searchFields; 
 	var $condition;
 	var $query;
-	function search($searchFields, $condition = array(), $extraConditions = ''){
-	
+	function __construct($searchFields, $condition = array(), $extraConditions = '')
+	{	
 		$searchCondition = '';
 		$conditions = '';
 		$this->searchFields = preg_split("/,/", $searchFields);
@@ -16,7 +16,6 @@ class search {
 			
 				$this->q = $_GET['q'];
 				$searchCondition = $this->prepare();
-				//echo $searchCondition;
 			}
 		}
 		if(!empty($condition) && is_array($condition)) {
@@ -40,7 +39,12 @@ class search {
 			if($extraConditions != '') {
 				$this->query .= $extraConditions;
 			}
-		}
+		}		
+	}
+	
+	function search($searchFields, $condition = array(), $extraConditions = '')
+	{
+		$this->__construct($searchFields, $condition, $extraConditions);
 	}
 	
 	function prepare() {
@@ -61,14 +65,16 @@ class search {
 	}
 	
 	function prepareCondition() {
-
-		$condition = "";
+		$condition = [];
 		foreach($this->condition as $key => $value) {
-			$condition .= trim($key). " REGEXP '$value' AND "; 
+			$trimmedValue = trim($value);
+			if ($trimmedValue !== '' && $trimmedValue !== '^$') {  
+				// Ignore empty and invalid regex
+				$condition[] = trim($key) . " REGEXP '$trimmedValue'"; 
+			}
 		}
-		$condition = substr($condition, 0, -4);
-		return $condition;
-	}
+		return !empty($condition) ? implode(" AND ", $condition) : ''; 
+	}	
 
 }
 

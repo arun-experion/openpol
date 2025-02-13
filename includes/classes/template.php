@@ -51,9 +51,14 @@ class template {
 			foreach($array as $key => $arr) {
 				if (is_array($arr)) {
 					$temp = $tag[1];
+					// Prepare an associative array for strtr()
+					$replacePairs = [];
 					foreach ($arr as $arkey => $arval) {
-						$temp = str_replace("{".$arkey."}", $arval, $temp);
+						$replacePairs["{" . $arkey . "}"] = $arval ?? '';
 					}
+					// Use strtr() for replacements
+					$temp = strtr($temp, $replacePairs);
+
 					$ret .= $temp;
 				}
 			}
