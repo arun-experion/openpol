@@ -58,8 +58,18 @@
 		
 		// while (list($columns, $value) = each($data)) {
 		foreach($data as $columns => $value) {
-
-			$query .= $columns . "='" . $value . "', ";
+			// If the value is NULL, set it as N0
+			if (is_null($value)) {
+				$query .= "$columns = 0, ";
+			} 
+			// If the value is numeric, insert as is (without quotes)
+			elseif (is_numeric($value)) {
+				$query .= "$columns = $value, ";
+			} 
+			// Otherwise, treat it as a string (with quotes)
+			else {
+				$query .= "$columns = '$value', ";
+			}
 		}
 		$query = substr($query, 0, -2);
 		$query .= " WHERE " . $condition;
