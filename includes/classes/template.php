@@ -52,7 +52,7 @@ class template {
 				if (is_array($arr)) {
 					$temp = $tag[1];
 					foreach ($arr as $arkey => $arval) {
-						$temp = str_replace("{".$arkey."}", $arval, $temp);
+						$temp = strtr($temp, ["{" . $arkey . "}" => $arval ?? '']);
 					}
 					$ret .= $temp;
 				}

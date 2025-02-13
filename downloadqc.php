@@ -21,7 +21,8 @@
 	  $file_name = $r['file_name'];
 	  $order_id  = $r['order_id'];
 	}
-	$download_file = QC_REPORT_UPLOAD_PATH.$file_name;
+	// $download_file = QC_REPORT_UPLOAD_PATH.$file_name;
+	$download_file = '/var/www/html/uploads/'.$file_name;
 	$file_extension= end(explode(".", $file_name));
 	$file_extension=strtolower($file_extension);
 	$file_name_download = str_replace(" ","_",$file_name);	

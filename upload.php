@@ -1,23 +1,29 @@
 <?php 
 	include("includes/initialize.php");
 	include(DIR_FUNCTIONS . "formvalidation.php");
-	$uploaddir = QC_REPORT_UPLOAD_PATH; 
+	// $uploaddir = QC_REPORT_UPLOAD_PATH; 
+	$uploaddir = "/var/www/html/uploads/"; 
+	if (!is_dir($uploaddir)) {
+	    mkdir($uploaddir, 0755, true);
+	}
 	$file = $uploaddir . basename($_FILES['userfile']['name']); 
 	$size=$_FILES['userfile']['size'];
 	$order_id=$_REQUEST['id'];
     $uploadstatus = 1;
 	$message['errortype']=0;
-	$file_extension=strtolower(end(explode(".", basename($_FILES['userfile']['name']))));
+	$filename_parts = explode(".", basename($_FILES['userfile']['name']));
+	$file_extension = strtolower(end($filename_parts));
 	$extensions_allowed =ALLOWABLE_DOC_EXT ;	
-	$message = "";
+	$message = [];
 	$message['errortype']=0;
 	  if(($_FILES['userfile']['size'] )> ALLOWABLE_DOC_SIZE){ 
 			$message['filesize'] = INVALID_FILE_SIZE." ".ALLOWABLE_DOC_SIZE." bytes" ;
 			$uploadstatus = 0;
 			$message['errortype']=1;
 		}
-				
-	   $file_extension= end(explode(".", basename($_FILES['userfile']['name'])));
+
+	   $file_parts=explode(".", basename($_FILES['userfile']['name']));
+	   $file_extension= end($file_parts);
 	   $extensions_allowed =ALLOWABLE_DOC_EXT ;
 	  
 	   if ((strpos($extensions_allowed, $file_extension)) === false) {
