@@ -105,7 +105,7 @@ if($query->num_rows > 0){
     foreach($orders_id as $order_id){
         Update("order",$data,"id=$order_id");
         $status = $order->get_orderstatus($order_id);
-        if(count($status) >0 && $status == 1) {
+        if($status >0 && $status == 1) {
             Insert("order_status", array("order_id" => $order_id, 
                 "current_status" => 3,
                 "comment" => '', 

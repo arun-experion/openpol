@@ -178,7 +178,7 @@
 	 
 	  $ocnt = Num(Query("SELECT distinct(o.id) From  (Select order_id,MAX(current_status) as status from order_status group by order_id) os INNER JOIN `order` o ON o.id = os.order_id INNER JOIN `user` u ON u.id=o.created_by INNER JOIN `product_order` po ON po.order_id=o.id INNER JOIN `product` p ON p.id=po.product_id ".$extracondition." where o.status = 1 ORDER BY o.id desc")); 
 	  
-	   $pocnt = Num(Query("SELECT distinct(po.product_id) From  (Select order_id,MAX(current_status) as status from order_status group by order_id) os INNER JOIN `order` o ON o.id = os.order_id INNER JOIN `user` u ON u.id=o.created_by INNER JOIN `product_order` po ON po.order_id=o.id INNER JOIN `product` p ON p.id=po.product_id ".$extracondition." where o.status =1 ORDER BY o.id desc")); 
+	   $pocnt = Num(Query("SELECT distinct(po.product_id), o.id From  (Select order_id,MAX(current_status) as status from order_status group by order_id) os INNER JOIN `order` o ON o.id = os.order_id INNER JOIN `user` u ON u.id=o.created_by INNER JOIN `product_order` po ON po.order_id=o.id INNER JOIN `product` p ON p.id=po.product_id ".$extracondition." where o.status =1 ORDER BY o.id desc")); 
  	   
 			$tpl -> AssignValue("prdcnt", $pocnt);
 			$amtord =0;
