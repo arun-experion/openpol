@@ -10,7 +10,7 @@
 	if (isset($_POST['search_term'])) {
 		$output         = '';
         $search_term    = $_POST['search_term'];
-		$search_id   	= $_POST['search_id'];
+		$search_id   	= isset($_POST['search_id']) ? $_POST['search_id'] : '';
 		$output         = '';
 		$where          = '';
         $plist_id       = 1;
