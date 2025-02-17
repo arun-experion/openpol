@@ -1,4 +1,13 @@
 <?php
+
+use PhpOffice\PhpSpreadsheet\IOFactory;
+use PhpOffice\PhpSpreadsheet\Spreadsheet;
+use PhpOffice\PhpSpreadsheet\Style\Alignment;
+
+use PhpOffice\PhpSpreadsheet\Style\Border;
+use PhpOffice\PhpSpreadsheet\Style\Fill;
+use PhpOffice\PhpSpreadsheet\Style\Color;
+
 include("includes/config.inc.php");
  session_start();  
 include(DIR_FUNCTIONS . "database.php");
@@ -14,15 +23,16 @@ $order = new Order();
 	$data = "";
  //	
  
-/** PHPExcel */
-require_once DIR_INCLUDES . 'phpexcel/PHPExcel.php';
+/** PHPSpreadsheet */
+require DIR_INCLUDES. 'PhpSpreadsheet/vendor/autoload.php';
+require_once DIR_INCLUDES . 'PhpSpreadsheet/src/PhpSpreadsheet/Spreadsheet.php';
 
 
 // Create new PHPExcel object
-$objPHPExcel = new PHPExcel();
+$objPhpSpeadsheet = new Spreadsheet();
 
 // Set properties
-$objPHPExcel->getProperties()->setCreator(SITE_OWNER)
+$objPhpSpeadsheet->getProperties()->setCreator(SITE_OWNER)
 							 ->setLastModifiedBy(SITE_OWNER)
 							 ->setTitle("Penpol orders")
 							 ->setSubject("Penpol orders")
@@ -32,24 +42,24 @@ $objPHPExcel->getProperties()->setCreator(SITE_OWNER)
 
 // Create a first sheet, representing sales data
  
-$objPHPExcel->getActiveSheet()->setCellValue('A1', '#12566');
+$objPhpSpeadsheet->getActiveSheet()->setCellValue('A1', '#12566');
 
    
-$objPHPExcel->getActiveSheet()->getStyle('A1:H1')->applyFromArray(
+$objPhpSpeadsheet->getActiveSheet()->getStyle('A1:H1')->applyFromArray(
 		array(
 			'font'    => array(
 				'bold'      => true
 			),
 			'alignment' => array(
-				'horizontal' => PHPExcel_Style_Alignment::HORIZONTAL_CENTER,
+				'horizontal' => Alignment::HORIZONTAL_CENTER,
 			),
 			'borders' => array(
 				'bottom'     => array(
- 					'style' => PHPExcel_Style_Border::BORDER_THIN
+ 					'style' => Border::BORDER_THIN
  				)
 			),
 			'fill' => array(
-	 			'type'       => PHPExcel_Style_Fill::FILL_GRADIENT_LINEAR,
+	 			'type'       => Fill::FILL_GRADIENT_LINEAR,
 	  			'rotation'   => 90,
 	 			'startcolor' => array(
 	 				'argb' => 'FFA0A0A0'
@@ -64,7 +74,7 @@ $objPHPExcel->getActiveSheet()->getStyle('A1:H1')->applyFromArray(
   
 
 // Add some data
-$objPHPExcel->setActiveSheetIndex(0)
+$objPhpSpeadsheet->setActiveSheetIndex(0)
             ->setCellValue('A1', 'Sl No')
             ->setCellValue('B1', 'Order No')
             ->setCellValue('C1', 'Product Name')
@@ -74,27 +84,27 @@ $objPHPExcel->setActiveSheetIndex(0)
 			->setCellValue('G1', 'Ordered By')
 			->setCellValue('H1', 'Delivery Date');
 			
-$objPHPExcel->getActiveSheet()->getStyle('A1')->getAlignment()->setHorizontal(PHPExcel_Style_Alignment::VERTICAL_CENTER);			
+$objPhpSpeadsheet->getActiveSheet()->getStyle('A1')->getAlignment()->setHorizontal(Alignment::VERTICAL_CENTER);			
  
-$objPHPExcel->getActiveSheet()->getStyle('A1:H1')->getFill()->setFillType(PHPExcel_Style_Fill::FILL_SOLID);
-$objPHPExcel->getActiveSheet()->getStyle('A1:H1')->getFill()->getStartColor()->setARGB('FF146ac1');
+$objPhpSpeadsheet->getActiveSheet()->getStyle('A1:H1')->getFill()->setFillType(Fill::FILL_SOLID);
+$objPhpSpeadsheet->getActiveSheet()->getStyle('A1:H1')->getFill()->getStartColor()->setARGB('FF146ac1');
   
-$objPHPExcel->getActiveSheet()->getStyle('A1:H1')->getFont()->getColor()->setARGB(PHPExcel_Style_Color::COLOR_WHITE);
+$objPhpSpeadsheet->getActiveSheet()->getStyle('A1:H1')->getFont()->getColor()->setARGB(Color::COLOR_WHITE);
  
 		
-$objPHPExcel->getActiveSheet()->getColumnDimension('B')->setWidth(20);
-$objPHPExcel->getActiveSheet()->getColumnDimension('C')->setWidth(30);
-$objPHPExcel->getActiveSheet()->getColumnDimension('D')->setWidth(20);
-$objPHPExcel->getActiveSheet()->getColumnDimension('E')->setWidth(20);
-$objPHPExcel->getActiveSheet()->getColumnDimension('F')->setWidth(25);
-$objPHPExcel->getActiveSheet()->getColumnDimension('G')->setWidth(20);
-$objPHPExcel->getActiveSheet()->getColumnDimension('H')->setWidth(20);
+$objPhpSpeadsheet->getActiveSheet()->getColumnDimension('B')->setWidth(20);
+$objPhpSpeadsheet->getActiveSheet()->getColumnDimension('C')->setWidth(30);
+$objPhpSpeadsheet->getActiveSheet()->getColumnDimension('D')->setWidth(20);
+$objPhpSpeadsheet->getActiveSheet()->getColumnDimension('E')->setWidth(20);
+$objPhpSpeadsheet->getActiveSheet()->getColumnDimension('F')->setWidth(25);
+$objPhpSpeadsheet->getActiveSheet()->getColumnDimension('G')->setWidth(20);
+$objPhpSpeadsheet->getActiveSheet()->getColumnDimension('H')->setWidth(20);
 $i=1;
 $row =2;
  
  	while($export = FetchAssoc($query)){ 
    	  	$onum = ' '.$export['order_no']; 
-		$objPHPExcel->getActiveSheet()
+		$objPhpSpeadsheet->getActiveSheet()
             ->setCellValue('A'.$row, $i)
             ->setCellValue('B'.$row, $onum)
             ->setCellValue('C'.$row, $export['name'])
@@ -108,30 +118,30 @@ $row =2;
 	 }
   
 	
-$objPHPExcel->getActiveSheet()->mergeCells('A'.$row.':E'.$row);
-$objPHPExcel->getActiveSheet()->setCellValue('A'.$row, 'Total');
-$objPHPExcel->getActiveSheet()->getStyle('A'.$row)->getAlignment()->setHorizontal(PHPExcel_Style_Alignment::HORIZONTAL_RIGHT);	
+$objPhpSpeadsheet->getActiveSheet()->mergeCells('A'.$row.':E'.$row);
+$objPhpSpeadsheet->getActiveSheet()->setCellValue('A'.$row, 'Total');
+$objPhpSpeadsheet->getActiveSheet()->getStyle('A'.$row)->getAlignment()->setHorizontal(Alignment::HORIZONTAL_RIGHT);	
 $lastrow=$row-1;
-$objPHPExcel->getActiveSheet()->setCellValue('F'.$row, '=SUM(F2:F'.$lastrow.')');
-$objPHPExcel->getActiveSheet()->setCellValue('G'.$row, ' ');
-$objPHPExcel->getActiveSheet()->setCellValue('H'.$row, ' ');
-$objPHPExcel->getActiveSheet()->getStyle('A3:A'.$lastrow)->getAlignment()->setHorizontal(PHPExcel_Style_Alignment::HORIZONTAL_CENTER);		
-$objPHPExcel->getActiveSheet()->getStyle('A2')->getAlignment()->setHorizontal(PHPExcel_Style_Alignment::HORIZONTAL_CENTER);	
-$objPHPExcel->getActiveSheet()->getStyle('E2:E'.$lastrow)->getAlignment()->setHorizontal(PHPExcel_Style_Alignment::HORIZONTAL_CENTER);	
+$objPhpSpeadsheet->getActiveSheet()->setCellValue('F'.$row, '=SUM(F2:F'.$lastrow.')');
+$objPhpSpeadsheet->getActiveSheet()->setCellValue('G'.$row, ' ');
+$objPhpSpeadsheet->getActiveSheet()->setCellValue('H'.$row, ' ');
+$objPhpSpeadsheet->getActiveSheet()->getStyle('A3:A'.$lastrow)->getAlignment()->setHorizontal(Alignment::HORIZONTAL_CENTER);		
+$objPhpSpeadsheet->getActiveSheet()->getStyle('A2')->getAlignment()->setHorizontal(Alignment::HORIZONTAL_CENTER);	
+$objPhpSpeadsheet->getActiveSheet()->getStyle('E2:E'.$lastrow)->getAlignment()->setHorizontal(Alignment::HORIZONTAL_CENTER);	
 
 // Rename sheet
-$objPHPExcel->getActiveSheet()->setTitle('Orders');
+$objPhpSpeadsheet->getActiveSheet()->setTitle('Orders');
 
 
 // Set active sheet index to the first sheet, so Excel opens this as the first sheet
-$objPHPExcel->setActiveSheetIndex(0);
+$objPhpSpeadsheet->setActiveSheetIndex(0);
  
-// Redirect output to a client’s web browser (Excel5)
+// Redirect output to a clientï¿½s web browser (Excel5)
 header('Content-Type: application/vnd.ms-excel');
 header('Content-Disposition: attachment;filename="orders.xls"');
 header('Cache-Control: max-age=0');
 
-$objWriter = PHPExcel_IOFactory::createWriter($objPHPExcel, 'Excel5');
+$objWriter = IOFactory::createWriter($objPhpSpeadsheet, 'Xlsx');
 $objWriter->save('php://output');
 exit; 
 ?>
