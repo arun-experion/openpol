@@ -48,8 +48,9 @@
     	for($i=0;$i<count($_FILES['defectpicture']['name']);$i++){		
 				if($_FILES['defectpicture']['name'][$i] != ""){	
 					$filename=str_replace(" ","_",$_FILES['defectpicture']['name'][$i]); 	 
-					$file_extension= end(explode(".", $filename));	
-					$next =$key+1;				
+					$file_part= explode(".", $filename);
+					$file_extension= end($file_part);	
+					$next =(int)$key+1;				
 					if ((strpos($extensions_allowed, $file_extension)) === false) {		 		
 						$errmsg .= "<li>Upload failed. Picture ".$next." (".$filename.") extension not allowed. Please re upload.</li>"; 	
 					}else if(($_FILES['defectpicture']['size'][$i] )> IMAGE_MAX_FILE_SIZE){  

@@ -398,6 +398,7 @@ class Order
 	 
 	 function getcancelreq_notification($ord_zoneid,$rid){
 	 	// get ZH
+		$mailid = [];
 	 	$query_zoneemail=Query("SELECT u.email, u.first_name FROM `user` u, user_roles ur  WHERE u.status = 1 and u.zone_id = ". $ord_zoneid. " and ur.userID = u.id and ur.roleID = ".$rid);			 
 		while($tomails = FetchAssoc($query_zoneemail)){
 			$mailid []= $tomails['email'];
@@ -406,11 +407,14 @@ class Order
 		$grpid = getGroupId(ORDER_CANCEL_REQUEST_GROUP);
 		if($grpid) {
 			$mails = getEmailGroup($grpid);
-			foreach($mails as $groupuser){
-				$mailid []= $groupuser['email'];					 
-			}				 
+			if (is_array($mails)) {
+				foreach ($mails as $groupuser) {
+					if (is_array($groupuser) && isset($groupuser['email'])) {
+						$mailid[] = $groupuser['email'];
+					} 
+				}
+			} 					 
 		}	
-	
 		return $mailid;	 
 	 }
          

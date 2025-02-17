@@ -400,7 +400,7 @@
                 $options[0] = 'Select Status';
                 $workflow = new Workflow();
                 $status = $workflow->getoptionlist($order->getcurrentorderstatus($_GET['id']), $_SESSION['rid']);
-        if(count($status) >0) {
+        if(is_array($status) && count($status) > 0) {
                         foreach($status as $val) {
                                 $options[$val['id']] = $val['option'];			
                         }

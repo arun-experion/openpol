@@ -113,7 +113,7 @@ class Complaint
 	}
 	
 	function getComplaintMailGroup($cmptype){   
-		$reults_email ="";
+		$reults_email =[];
 		$query=Query("SELECT * FROM email_group Where name='".$cmptype."'");
 		if(Num($query)){
 			$result  = Fetch($query);
