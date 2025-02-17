@@ -141,7 +141,6 @@ header('Content-Type: application/vnd.ms-excel');
 header('Content-Disposition: attachment;filename="orders.xls"');
 header('Cache-Control: max-age=0');
 
-// $objWriter = PHPExcel_IOFactory::createWriter($objPhpSpeadsheet, 'Excel5');
 $objWriter = IOFactory::createWriter($objPhpSpeadsheet, 'Xlsx');
 $objWriter->save('php://output');
 exit; 
