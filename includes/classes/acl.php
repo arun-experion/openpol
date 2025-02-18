@@ -121,7 +121,7 @@
 			$perms = array();
 			while($row = mysqli_fetch_assoc($data))
 			{
-				$pK = strtolower($this->getPermKeyFromID($row['permID'])?? '');
+				$pK = strtolower($this->getPermKeyFromID($row['permID']) ?? '');
 				if ($pK == '') { continue; }
 				if ($row['value'] === '1') {
 					$hP = true;
@@ -140,7 +140,7 @@
 			$perms = array();
 			while($row = mysqli_fetch_assoc($data))
 			{
-				$pK = strtolower($this->getPermKeyFromID($row['permID'])?? '');
+				$pK = strtolower($this->getPermKeyFromID($row['permID']) ?? '');
 				if ($pK == '') { continue; }
 				if ($row['value'] == '1') {
 					$hP = true;
