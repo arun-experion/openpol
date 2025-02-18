@@ -204,7 +204,8 @@
 		$query = Query("SELECT id, cmp_id, report_path, DATE_FORMAT(`updated_date` , '%d/%m/%Y' ) AS updated_date, updated_by FROM `[x]qa_complaintreport` where cmp_id={$compid} ORDER BY id DESC");
 		if(Num($query)) {
 			while($report=FetchAssoc($query)){
-				$report['filename'] = end(explode('/',$report['report_path']));
+				$report_part=explode('/',$report['report_path']);
+				$report['filename'] = end($report_part);
 				$qaperson = getUserData($report['updated_by']);
 				$report['qaperson'] = $qaperson['first_name'];
 				$reports[]=$report;
