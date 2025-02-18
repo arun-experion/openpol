@@ -49,9 +49,13 @@ function createSelect($name, $options, $selected='', $params = '') {
 
 function createMultiSelect($name, $options, $selected='', $params = '') {
 		$mainid = $name;
+        $select = '';
     // while (list($id, $name) = each($options)) {
     foreach($options as $id => $name) {
         $sel = '';
+        if (!is_array($selected)) {
+            $selected = empty($selected) ? [] : [$selected];
+        }
         if($selected != '') {
           if(in_array($id, $selected)) {
               $sel = ' checked';

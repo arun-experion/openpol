@@ -20,13 +20,13 @@ class template {
 	// Assign Array
 	function AssignArray($array) {
 		foreach ($array as $code => $value) {
-			$this->Buffer = str_replace("{".$code."}", $value, $this->Buffer);
+			$this->Buffer = strtr($this->Buffer, ["{".$code."}" => $value]);
 		}
 	}
 	
 	// Assign Value
 	function AssignValue($tag, $value) {
-		$this->Buffer = str_replace("{".$tag."}", $value, $this->Buffer);
+		$this->Buffer = strtr($this->Buffer, ["{".$tag."}" => $value]);
 	}
 	
 	// Assign Row
