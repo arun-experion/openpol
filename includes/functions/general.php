@@ -368,28 +368,31 @@ function createRandomString($length = 7) {
 	return $pass;
 }
 
-function getEmailGroup($groupid,$isrole=''){   
-	$reults_email ="";
-	$query=Query("SELECT * FROM email_group Where id=".$groupid);
-	if(Num($query)){
-		$result  = Fetch($query);
-		$userids = $result['user_id'];
-		$userids_array = explode(",",$userids);
-		$count = sizeof($userids_array);
-		if(!$isrole) {
-			for($i=0;$i<$count;$i++){
-                $reults_email=array();
-				$reults_email=FetchAssoc(Query("SELECT id,email,first_name,last_name FROM `[x]user` Where id=".$userids_array[$i]));
-			} 
-		}else{
-			for($i=0;$i<$count;$i++){
-				$emailids=FetchAssoc(Query("SELECT id,email,first_name,last_name,zone_id,area_id FROM `[x]user` Where id=".$userids_array[$i]));
-				$emailids['rolename'] = getUserType($emailids['id']);
-				$reults_email[] = $emailids;
-			} 
-		}
-	}
-	return $reults_email; 
+function getEmailGroup($groupid, $isrole = ''){   
+    $reults_email = [];
+    $query = Query("SELECT * FROM email_group WHERE id=" . intval($groupid));
+    if(Num($query)){
+        $result = Fetch($query);
+        $userids = $result['user_id'];
+        $userids_array = explode(",", $userids);
+        if (!$isrole) {
+            foreach ($userids_array as $userid) {
+                $userData = FetchAssoc(Query("SELECT id, email, first_name, last_name FROM `[x]user` WHERE id=" . intval($userid)));
+                if ($userData) {  
+                    $reults_email[] = $userData;
+                }
+            }
+        } else {
+            foreach ($userids_array as $userid) {
+                $emailids = FetchAssoc(Query("SELECT id, email, first_name, last_name, zone_id, area_id FROM `[x]user` WHERE id=" . intval($userid)));
+                if ($emailids) {
+                    $emailids['rolename'] = getUserType($emailids['id']);
+                    $reults_email[] = $emailids;
+                }
+            }
+        }
+    }
+    return $reults_email;
 }
 
 
