@@ -35,7 +35,7 @@
 	$ed_percent=$ed;
 	$cst_percent=$cst;
 	$result=$quarter->getQuarterFromId($quarter_id);
-	$quarter_id=$result['id'];
+	$quarter_id = isset($result['id']) ? $result['id'] : null;
 	$quarter_name=$result['name'];
 	$from=$result['from_date'];
 	$to=$result['to_date'];
