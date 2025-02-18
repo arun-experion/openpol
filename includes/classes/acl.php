@@ -42,7 +42,7 @@
 			$strSQL = "SELECT `permKey` FROM `permissions` WHERE `ID` = " . floatval($permID) . " LIMIT 1";
 			$data = Query($strSQL);
 			$row = Fetch($data);
-			return $row[0];
+			return isset($row[0]) ? $row[0] : false;
 		}
 		
 		function getPermNameFromID($permID)
@@ -50,7 +50,7 @@
 			$strSQL = "SELECT `permName` FROM `permissions` WHERE `ID` = " . floatval($permID) . " LIMIT 1";
 			$data = Query($strSQL);
 			$row = Fetch($data);
-			return $row[0];
+			return isset($row[0]) ? $row[0] : false;
 		}
 		
 		function getRoleNameFromID($roleID)
@@ -58,7 +58,7 @@
 			$strSQL = "SELECT `roleName` FROM `roles` WHERE `ID` = " . floatval($roleID) . " LIMIT 1";
 			$data = Query($strSQL);
 			$row = Fetch($data);
-			return $row[0];
+			return isset($row[0]) ? $row[0] : false;
 		}
 		
 		function getUserRoles()
@@ -185,7 +185,7 @@
 			$strSQL = "SELECT `username` FROM `user` WHERE `ID` = " . floatval($userID) . " LIMIT 1";
 			$data = Query($strSQL);
 			$row = Fetch($data);
-			return $row[0];
+			return isset($row[0]) ? $row[0] : false;
 		}
 	}
 
