@@ -5,7 +5,7 @@ include("includes/initialize.php");
 	$output = '';
 	if(count($ids) > 0){
 		foreach ($ids as $zoneIds) {
-			$areaquery = Query("SELECT * FROM `[x]area` where zone_id = ". $zoneIds);	
+			$areaquery = Query("SELECT * FROM `[x]area` where zone_id = ".intval($zoneIds));	
 			while($arearesults = FetchAssoc($areaquery)) {
 			
 				$output .= '<span class="zone'. $zoneIds.'">';
