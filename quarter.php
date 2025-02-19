@@ -22,7 +22,7 @@
 							$qid= $_GET['qid'];
 							$tpl -> AssignValue("quarter","Edit Quarter");
 							$result=$quarter->getQuarterFromId($qid);
-							$tpl -> AssignValue("quarter_id",$result['id']);
+							$tpl->AssignValue("quarter_id", isset($result['id']) ? $result['id'] : null);
 							$tpl -> AssignValue("quarter_name",$result['name']);
 							$tpl -> AssignValue("from",$result['from_date']);
 							$tpl -> AssignValue("to",$result['to_date']);

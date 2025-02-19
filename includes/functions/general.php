@@ -411,7 +411,7 @@ function getGroupId($groupname) {
   	$query=Query("SELECT id FROM email_group Where name='".$groupname."'");
 		if(Num($query)){
 		$result  = Fetch($query);
-		$group_id = $result['id'];
+        $group_id = isset($result['id']) ? $result['id'] : null;
 		}
 	return $group_id;
 
