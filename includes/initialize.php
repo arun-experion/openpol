@@ -1,6 +1,6 @@
 <?php
 	ini_set('open_basedir', Null);	
-	ini_set("session.save_path", __DIR__."/temp");
+	ini_set("session.save_path", '/var/tmp');
 	
 	session_start();
 

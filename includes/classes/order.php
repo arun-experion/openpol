@@ -211,7 +211,7 @@ class Order
 	
 	function getordermadeby($oid,$format = '') {
 		$result= FetchAssoc(Query("SELECT u.first_name,u.id FROM `user` u, `order` o WHERE o.id ={$oid} AND u.id = o.created_by and o.status = 1"));	 	
-		$id=$result['id'];
+		$id=$result['id'] ?? '';
                 if(!empty($id))
                 {
                     $role_result= FetchAssoc(Query("SELECT r.roleName FROM `roles` r, `user_roles` ur WHERE ur.userID ={$id} AND r.ID = ur.roleId"));	 

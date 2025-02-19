@@ -21,13 +21,13 @@ function roles() {
 				if ($userACL->hasPermission($v['Key']) && $rPerms[$v['Key']]['inheritted'] != true) {  $roles .= " selected=\"selected\""; }
 				 $roles .= ">Allow</option>";
 				 $roles .= "<option value=\"0\"";
-				if ($rPerms[$v['Key']]['value'] === false && $rPerms[$v['Key']]['inheritted'] != true) {  $roles .= " selected=\"selected\""; }
+				if (isset($rPerms[$v['Key']]['value']) && $rPerms[$v['Key']]['value'] === false && $rPerms[$v['Key']]['inheritted'] != true) {  $roles .= " selected=\"selected\""; }
 				 $roles .= ">Deny</option>";
 				 $roles .= "<option value=\"x\"";
-				if ($rPerms[$v['Key']]['inheritted'] == true || !array_key_exists($v['Key'],$rPerms))
+				if (isset($rPerms[$v['Key']]['inheritted']) && $rPerms[$v['Key']]['inheritted'] == true || !array_key_exists($v['Key'],$rPerms))
 				{
 					 $roles .= " selected=\"selected\"";
-					if ($rPerms[$v['Key']]['value'] === true )
+					if (isset($rPerms[$v['Key']]['value']) && $rPerms[$v['Key']]['value'] === true )
 					{
 						$iVal = '(Allow)';
 					} else {
@@ -83,7 +83,7 @@ function forgotpass($email) {
 				
 				//send mail
 				$mail = new SendMail;
-				$mail -> From 		= SITE_NAME . " <" . STIE_EMAIL . ">";
+				$mail -> From 		= SITE_NAME . " <" . SITE_EMAIL . ">";
 				$mail -> To 			=	$email;
 				$mail -> Subject 	= $mailContent[0];
 				$mail -> Body 		= $mailContent[1];

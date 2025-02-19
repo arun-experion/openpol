@@ -33,7 +33,7 @@
 				$mailContent = "Dear";
 				//send mail
 				$mail = new SendMail;
-				$mail -> From 		= SITE_NAME . " <" . STIE_EMAIL . ">";
+				$mail -> From 		= SITE_NAME . " <" . SITE_EMAIL . ">";
 				$mail -> To 		=	"syamnath.v@experionglobal.com";
 				$mail -> Subject 	= "Your login details of ".SITE_NAME;
 				$mail -> Body 		= $mailContent;
