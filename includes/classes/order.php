@@ -157,12 +157,14 @@ class Order
 	}
 	
 	function getstatusname($sid) {
-		
-			$orderstatus= Query("SELECT * FROM `[x]status` where id={$sid}");
+			$sid = intval($sid);
+			$orderstatus = Query("SELECT * FROM " . DB_PREFIX . "status WHERE id={$sid}");
 			if(Num($orderstatus)) {
 				$r = FetchAssoc($orderstatus);
 				return $r;
 			 }	
+
+			 return null;
 	}
 	
 	function getworkflows() {
