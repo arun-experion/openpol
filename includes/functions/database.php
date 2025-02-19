@@ -9,17 +9,29 @@
 		global $CONF;
 		
 		if (!isset($GLOBALS["DB_CONNECTION"]) or !$GLOBALS["DB_CONNECTION"]) Connect();
-		return mysqli_query($GLOBALS["DB_CONNECTION"], str_replace("[x]", DB_PREFIX, $content)); 
+		if($content)
+		{
+			return mysqli_query($GLOBALS["DB_CONNECTION"], str_replace("[x]", DB_PREFIX, $content)); 
+		}
+		return false;
 	}
 	
 	function Fetch($content) {
 		if (!isset($GLOBALS["DB_CONNECTION"]) or !$GLOBALS["DB_CONNECTION"]) Connect();
-		return mysqli_fetch_array($content);
+		if($content)
+		{
+			return mysqli_fetch_array($content);
+		}
+		return false;
 	}
 	
 	function FetchAssoc($content) {
 		if (!isset($GLOBALS["DB_CONNECTION"]) or !$GLOBALS["DB_CONNECTION"]) Connect();
-		return mysqli_fetch_assoc($content);
+		if($content)
+		{
+			return mysqli_fetch_assoc($content);
+		}
+		return false;
 	}
 	
 	function Num($content) {
