@@ -54,7 +54,7 @@
 		    $tpl -> Zone("list", "enabled");
 		   
 		   }
-	  $tpl -> AssignValue("success",$message);  
+		   if (isset($message)) $tpl -> AssignValue("success",$message);  
 	}else{
 	
 	 $tpl -> Zone("list", "enabled");
