@@ -43,7 +43,7 @@
 			}
 		}		 
 	
-		  if($_POST['product_type'] ==1){
+		  if(isset($_POST['product_type']) && $_POST['product_type'] ==1){
 		  
 			 if($_POST['weight'] == ""){
 				 $error['error.weight'] = '<li>'.EMPTY_WEIGHT.'</li>';
@@ -54,10 +54,10 @@
 			
 		 
 		}	
-	    if(($_POST['weight'] != "") && (!is_numeric($_POST['weight']))){
+	    if(isset($_POST['weight']) && ($_POST['weight'] != "") && (!is_numeric($_POST['weight']))){
 			 	$error['error.weight'] =  '<li>'.NUMERIC_WEIGHT.'</li>';
 			 }	
-		if(($_POST['carton'] !="") && (!is_numeric($_POST['carton']))) {
+		if(isset($_POST['carton']) && ($_POST['carton'] !="") && (!is_numeric($_POST['carton']))) {
 				$error['error.carton'] = '<li>'.NUMERIC_CARTON.'</li>';
 		 }					  
 		
