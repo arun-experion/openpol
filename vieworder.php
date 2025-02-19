@@ -158,7 +158,7 @@
 	  }	
     
  	   $getdetail = $order->getOrderDetails($_GET['id'], $_GET['a']);
-  	   if($myACL->hasPermission('add_order') && $order->getcurrentorderstatus($_GET['id']) !=11 && $getdetail['request_to_cancel'] !=1){ 
+		if ($myACL->hasPermission('add_order') && $order->getcurrentorderstatus($_GET['id']) != 11 && !empty($getdetail) && isset($getdetail['request_to_cancel']) && $getdetail['request_to_cancel'] != 1) {
 			if($order->getcurrentorderstatus($_GET['id']) >=8){				
 				$tpl -> Zone("cancelbutton", "disabled");
 			}else{
@@ -166,31 +166,34 @@
 			}
  		}
 	 	
-   		if($getdetail['tax_status'] == 1) {
+   		if(isset($getdetail['tax_status']) && $getdetail['tax_status'] == 1) {
 			$getdetail['salestax'] = 'Inclusive';
 		} else {
 			$getdetail['salestax'] = 'Exclusive';
 		}
-		if($getdetail['credit'] == 0){
-			$getdetail['order_credit'] = "Zone"  ;
-		}else{
-			$credit_user =  getUserData($getdetail['credit']);
-			$getdetail['order_credit'] = $credit_user['first_name'];
+		if (!empty($getdetail) && array_key_exists('credit', $getdetail)) {
+			if ($getdetail['credit'] == 0) {
+				$getdetail['order_credit'] = "Zone";
+			} else {
+				$credit_user = getUserData($getdetail['credit']) ?? [];
+				$getdetail['order_credit'] = $credit_user['first_name'] ?? '';
+			}
 		}
-		if($getdetail['payment_term'] == 1){
+		
+		if(isset($getdetail['payment_term']) && $getdetail['payment_term'] == 1){
 		   
 			$getdetail['payment_term_type'] = BLOOD_BAG_TERMS;
-		}else if($getdetail['payment_term'] == 0){ 
+		}else if(isset($getdetail['payment_term']) && $getdetail['payment_term'] == 0){ 
 			$getdetail['payment_term_type'] = "" ;
 		}else{
 			$getdetail['payment_term_type'] = EQUIPMENTS_TERMS ;
 		}
-		if($getdetail['tax_type'] == 1) {
+		if(isset($getdetail['tax_type']) && $getdetail['tax_type'] == 1) {
 			$getdetail['form'] = 'C Form';
 		} else {
 			$getdetail['form'] = 'D Form';
 		}
- 		if($getdetail['request_to_cancel'] && $_SESSION['rid'] == 8) {
+ 		if(isset($getdetail['request_to_cancel']) && $getdetail['request_to_cancel'] && $_SESSION['rid'] == 8) {
 			$tpl -> Zone("success", "disabled");
  			$tpl -> AssignValue("baname", $order->getordermadeby($_GET['id']));
   		}
@@ -204,7 +207,7 @@
 			$tpl -> Zone("deliverydateentrysection", "enabled");
 		}
 		
-		if($getdetail['request_to_cancel']) {		
+		if(isset($getdetail['request_to_cancel']) && $getdetail['request_to_cancel']) {		
 			$tpl -> AssignValue("cancel_comment", $getdetail['reason_cancel']);
 			$tpl -> AssignValue("reqcancelmadeby", $order->getordermadeby($_GET['id']));
 			$tpl -> AssignValue("reqcanceldate", $getdetail['request_canceldate']);
@@ -242,10 +245,10 @@
 				
  				$tpl -> Zone("orderupdateform", "enabled");
 				$tpl -> Zone("recommendcancellation", "disabled");
-			}else if($getdetail['request_to_cancel'] && $myACL->hasPermission('recommend_order_cancellation') && $getdetail['recommend_to_cancel'] ==0){
+			}else if(isset($getdetail['request_to_cancel']) && $getdetail['request_to_cancel'] && $myACL->hasPermission('recommend_order_cancellation') && $getdetail['recommend_to_cancel'] ==0){
 				$tpl -> Zone("recommendcancellation", "enabled");
 				$tpl -> Zone("orderupdateform", "enabled"); 				
-			}else if($getdetail['request_to_cancel'] ==1 && $getdetail['recommend_to_cancel'] ==1 && $order->getcurrentorderstatus($_GET['id']) !=11 && $myACL->hasPermission('cancel_order')){
+			}else if(isset($getdetail['request_to_cancel']) && $getdetail['request_to_cancel'] ==1 && $getdetail['recommend_to_cancel'] ==1 && $order->getcurrentorderstatus($_GET['id']) !=11 && $myACL->hasPermission('cancel_order')){
 				$tpl -> Zone("cancelaction", "enabled");
 				$tpl -> Zone("orderupdateform", "enabled"); 				
 			}else{
