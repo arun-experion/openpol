@@ -260,8 +260,8 @@
 		while($zoneresults = FetchAssoc($zonequery)) {
 			$zoneoptions[$zoneresults["id"]] = $zoneresults["name"];
 		}
-		$tpl -> AssignValue("select_zone", createMultiSelect("zones", $zoneoptions, $zoneselectedoptions ));	
-		$tpl -> AssignValue("zoneval", json_encode($zoneselectedoptions));
+		$tpl -> AssignValue("select_zone", createMultiSelect("zones", $zoneoptions, $zoneselectedoptions ?? [] ));	
+		$tpl -> AssignValue("zoneval", json_encode($zoneselectedoptions ?? []));
 		
 		
 		$zonequery = Query("SELECT * FROM `[x]user_areas` where userID =". $_GET['id']);	
@@ -271,6 +271,7 @@
 		}
 
 		//Get area
+		if(isset($zoneselectedoptions)){
 		$areaquery = Query("SELECT * FROM `[x]area` where zone_id IN (". implode (", ", $zoneselectedoptions) . ")");	
 		// $areaoptions[0]	='---Select---';
 		while($arearesults = FetchAssoc($areaquery)) {
@@ -279,10 +280,10 @@
 		if(isset($_POST['area'])) {									
 			$tpl -> AssignValue("selectedarea", json_encode($_POST['area']));
 		}else{
-			
 			$tpl -> AssignValue("selectedarea", json_encode($areaselectedoptions));
 			$tpl -> AssignValue("select_areas", createMultiSelect("area", $areaoptions, implode (", ", $zoneselectedoptions) ));	
-		}		
+		}	
+		}			
 		
 		
 		//Get title		
