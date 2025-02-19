@@ -174,7 +174,7 @@
 			}else{
 			$r['display'] = "none";
 			}
-			$r['currentstatus'] = $status['status'];
+			$r['currentstatus'] =isset($status['status']) ? $status['status'] : '';
                         
                         $r['statusflag'] = '';
                         //$tpl -> Zone("editoption", "disabled");
