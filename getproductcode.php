@@ -19,7 +19,7 @@
 	$getquarterquery = Query("SELECT id FROM `quarter` WHERE DATE_FORMAT( from_date, '%Y-%m-%d' ) <= '$today' AND 
 	DATE_FORMAT( to_date, '%Y-%m-%d' ) >= '$today'");
 	$quarterresult = Fetch($getquarterquery);
-    $quarterid = $quarterresult['id']; 
+    $quarterid = isset($quarterresult['id']) ?? ''; 
 	if($quarterid){
 		$productratequery = Query("SELECT rate FROM `[x]quarter_price` WHERE quarter_id=$quarterid 
 		                            AND product_id=$product_id" );
